@@ -15,6 +15,12 @@
 		9C6EE5A82443F29800642728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6EE5A62443F29800642728 /* LaunchScreen.storyboard */; };
 		9C6EE5B32443F29800642728 /* BsnXcerptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5B22443F29800642728 /* BsnXcerptsTests.swift */; };
 		9C6EE5BE2443F29800642728 /* BsnXcerptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5BD2443F29800642728 /* BsnXcerptsUITests.swift */; };
+		9C6EE5CF2443F35000642728 /* CompositionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5CE2443F35000642728 /* CompositionListView.swift */; };
+		9C6EE5D12443F35E00642728 /* CompositionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5D02443F35E00642728 /* CompositionDetailView.swift */; };
+		9C6EE5D32443F36B00642728 /* ComposerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5D22443F36B00642728 /* ComposerListView.swift */; };
+		9C6EE5D52443F37400642728 /* ComposerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5D42443F37400642728 /* ComposerDetailView.swift */; };
+		9C6EE5D72443F40600642728 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5D62443F40600642728 /* MoreView.swift */; };
+		9C6EE5D92443F42A00642728 /* BassoonContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE5D82443F42A00642728 /* BassoonContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		9C6EE5B92443F29800642728 /* BsnXcerptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BsnXcerptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6EE5BD2443F29800642728 /* BsnXcerptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BsnXcerptsUITests.swift; sourceTree = "<group>"; };
 		9C6EE5BF2443F29800642728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6EE5CE2443F35000642728 /* CompositionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionListView.swift; sourceTree = "<group>"; };
+		9C6EE5D02443F35E00642728 /* CompositionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionDetailView.swift; sourceTree = "<group>"; };
+		9C6EE5D22443F36B00642728 /* ComposerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerListView.swift; sourceTree = "<group>"; };
+		9C6EE5D42443F37400642728 /* ComposerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerDetailView.swift; sourceTree = "<group>"; };
+		9C6EE5D62443F40600642728 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		9C6EE5D82443F42A00642728 /* BassoonContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassoonContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,13 @@
 		9C6EE59A2443F29500642728 /* BsnXcerpts */ = {
 			isa = PBXGroup;
 			children = (
+				9C6EE5D82443F42A00642728 /* BassoonContentModel.swift */,
+				9C6EE59F2443F29500642728 /* ContentView.swift */,
+				9C6EE5D62443F40600642728 /* MoreView.swift */,
+				9C6EE5CC2443F2EB00642728 /* CompositionViews */,
+				9C6EE5CD2443F30300642728 /* ComposerViews */,
 				9C6EE59B2443F29500642728 /* AppDelegate.swift */,
 				9C6EE59D2443F29500642728 /* SceneDelegate.swift */,
-				9C6EE59F2443F29500642728 /* ContentView.swift */,
 				9C6EE5A12443F29800642728 /* Assets.xcassets */,
 				9C6EE5A62443F29800642728 /* LaunchScreen.storyboard */,
 				9C6EE5A92443F29800642728 /* Info.plist */,
@@ -134,6 +150,24 @@
 				9C6EE5BF2443F29800642728 /* Info.plist */,
 			);
 			path = BsnXcerptsUITests;
+			sourceTree = "<group>";
+		};
+		9C6EE5CC2443F2EB00642728 /* CompositionViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C6EE5CE2443F35000642728 /* CompositionListView.swift */,
+				9C6EE5D02443F35E00642728 /* CompositionDetailView.swift */,
+			);
+			path = CompositionViews;
+			sourceTree = "<group>";
+		};
+		9C6EE5CD2443F30300642728 /* ComposerViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C6EE5D22443F36B00642728 /* ComposerListView.swift */,
+				9C6EE5D42443F37400642728 /* ComposerDetailView.swift */,
+			);
+			path = ComposerViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +304,12 @@
 				9C6EE59C2443F29500642728 /* AppDelegate.swift in Sources */,
 				9C6EE59E2443F29500642728 /* SceneDelegate.swift in Sources */,
 				9C6EE5A02443F29500642728 /* ContentView.swift in Sources */,
+				9C6EE5D52443F37400642728 /* ComposerDetailView.swift in Sources */,
+				9C6EE5D12443F35E00642728 /* CompositionDetailView.swift in Sources */,
+				9C6EE5D92443F42A00642728 /* BassoonContentModel.swift in Sources */,
+				9C6EE5D32443F36B00642728 /* ComposerListView.swift in Sources */,
+				9C6EE5CF2443F35000642728 /* CompositionListView.swift in Sources */,
+				9C6EE5D72443F40600642728 /* MoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
