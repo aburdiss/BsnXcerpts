@@ -22,13 +22,12 @@ struct ContentView: View {
                     Text("Composers")
             }
             MoreView()
-                // TODO: Update color based on App Icon.
                 .tabItem {
                     Image(systemName: "gear")
                     Text("More")
             }
         }
-        .accentColor(Color.green)
+        .accentColor(Color.red)
     }
 }
 

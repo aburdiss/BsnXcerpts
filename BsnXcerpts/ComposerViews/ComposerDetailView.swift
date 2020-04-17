@@ -80,7 +80,7 @@ struct ComposerDetailView: View {
 
 struct ComposerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ComposerDetailView(composer: bach)
+        ComposerDetailView(composer: beethoven)
     }
 }
 

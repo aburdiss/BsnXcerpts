@@ -38,14 +38,9 @@ struct CompositionDetailView: View {
                                     Text(composition.genre)
                                 }
                                 .padding(.horizontal)
-                                HStack {
-                                    Text("Mutes:")
-                                        .font(.headline)
-                                    Text(composition.mutes)
-                                }
-                                .padding(.horizontal)
+
                                 Divider()
-                                    .background(Color.green)
+                                    .background(Color.red)
                                     .padding(.horizontal)
                             }
                             // MARK: Excerpt Group
@@ -73,7 +68,7 @@ struct CompositionDetailView: View {
                                 }
                             }
                             Divider()
-                                .background(Color.green)
+                                .background(Color.red)
                                 .padding(.horizontal)
                                 .padding(.top)
                             Text("Listen")
@@ -106,7 +101,7 @@ struct CompositionDetailView: View {
 struct CompositionDetailView_Previews: PreviewProvider {
     static var previews: some View {
         CompositionDetailView(
-            composition: brahms4
+            composition: beethovenleonore
         )
     }
 }

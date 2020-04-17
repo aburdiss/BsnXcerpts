@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct MoreView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
@@ -28,7 +28,7 @@ struct SettingsView: View {
                         Text("Send Feedback")
                             .padding()
                             .overlay(RoundedRectangle(cornerRadius: 12)
-                            .stroke(Color.green, lineWidth: 1))
+                            .stroke(Color.red, lineWidth: 1))
                             .padding()
                     }
                     
@@ -44,7 +44,7 @@ struct SettingsView: View {
                         }
                             .padding()
                             .overlay(RoundedRectangle(cornerRadius:12)
-                            .stroke(Color.green, lineWidth: 1))
+                            .stroke(Color.red, lineWidth: 1))
                             .padding(.bottom, 80)
                     }
                     
@@ -61,9 +61,9 @@ struct SettingsView: View {
     }
 }
 
-struct SettingsView_Previews: PreviewProvider {
+struct MoreView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        MoreView()
     }
 }
 
