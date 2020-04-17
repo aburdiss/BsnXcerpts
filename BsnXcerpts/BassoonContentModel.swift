@@ -52,13 +52,57 @@ struct Composer: Identifiable {
 let beethovenleonore = Composition(id: 0, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Leonore Overture No. 3", date: "1806", era: "Classical", genre: "Overture", excerpts: [
     Excerpt(id: 0, description: "Excerpt 1", measures: "mm. 330 - 340", pictures: [["Bassoon 1", "1000"]]),
     Excerpt(id: 1, description: "Excerpt 2", measures: "8 after [H] to 14 before Presto", pictures: [["Bassoon 1", "1001"], ["Bassoon 2", "1002"]])
-], videos: [["",""]])
+], videos: [
+    ["Anton Nanut, Radio-Symphonieorchester Wien (With Score)", "_0pz7zkKcA0"],
+    ["Franz Welser, Vienna Philharmonic", "oodMxBMM0Dw"],
+    ["Karl Böhm, Wiener Philharmoniker", "RpCNGTRvQVI"],
+    ["Kurt Masur, Gewandhaus Orchester Leipzig", "JEcxF227xE0"],
+    ["Leonard Bernstein, Bavarian Broadcast Symphony Orchestra","dRhwyzJABvI"],
+    ["Nicolás Pasquet, Orchestra of the University of Music FRANZ LISZT Weimar", "OOIlQkANUxQ"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "5OibQYjPUqc"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "yZzwA_dntCM"]
+])
 
+let beethoven4 = Composition(id: 1, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 4", date: "1806", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 2, description: "Excerpt 1", measures: "Mov. II, mm. 65 - 72", pictures: [["Bassoon 1", "1003"], ["Bassoon 2", "1004"]]),
+    Excerpt(id: 3, description: "Excerpt 2", measures: "Mov. IV, mm. 15 - 25", pictures: [["Bassoon 1", "1005"], ["Bassoon 2", "1006"]]),
+    Excerpt(id: 4, description: "Excerpt 3", measures: "Mov. IV, mm. 184 - 190", pictures: [["Bassoon 1", "1007"], ["Bassoon 2", "1008"]]),
+    Excerpt(id: 5, description: "Excerpt 4", measures: "Mov. IV, mm. 348 - End", pictures: [["Bassoon 1", "1009"], ["Bassoon 2", "1010"]])
+], videos: [
+    // Orchestras
+    ["Andrés Orozco-Estrada", "uGWklkORHJo"],
+    ["Arturo Toscanini, NBC Symphony Orchestra", "G-eMpph444Q"],
+    ["Bernard Haitink, London Symphony Orchestra (With Score)", "PVArUbva2bk"],
+    ["Carlos Kleiber, Concertgebouw Symphony Orchestra", "dCMYxJIji1g"],
+    ["Christian Thielemann, Wiener Philharmoniker", "2rLXFPNx-ss"],
+    ["Daniel Barenboim, West-Eastern Divan Orchestra", "KjfWx_FBEuk"],
+    ["John Eliot Gardiner, Orchestre Révolutionnaire et Romantique (On Period Instruments)", "HVABRzniCIQ"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "BQm6Xu4vYWo"],
+    ["Herbert von Karajan, Philharmonia Orchestra", "uliun1CMR8s"],
+    ["Paavo Jarvi, Deutsche Kammerphilharmonie Bremen", "RMzLZsoPDU4"],
+    // Masterclass
+    ["David McGill", "KjfWx_FBEuk"]
+])
+
+let beethoven5 = Composition(id: 2, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 5", date: "1808", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 6, description: "Excerpt 1", measures: "Mov. IV, mm. 374 - 436", pictures: [["Bassoon 1", "1011"], ["Bassoon 2", "1012"], ["Contrabassoon", "1013"]])
+], videos: [
+    ["Bernard Haitink, London Symphony Orchestra", "DAyUzxDB9eE"],
+    ["Christian Thielemann, Vienna Philharmonic Orchestra", "olMPeiqoiic"],
+    ["Daniel Barenboim, West-Eastern Divan Orchestra", "jv2WJMVPQi8"],
+    ["Gustavo Dudamel", "msolhqi-PC0"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "yKl4T5BnhOA"],
+    ["Herbert von Karajan, Philharmonia Orchestra", "OV6Lp7cnX7s"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "kHYBoG7hiZk"]
+])
+
+
+let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
 /*
  Bartok Dance Suite <- Cannot find sheet music, not that important either.
 X Beethoven Leonore
- Beethoven Symphony No. 4
- Beethoven Symphony No. 5
+X Beethoven Symphony No. 4
+X Beethoven Symphony No. 5
  Beethoven Symphony No. 6
  Beethoven Symphony No. 7
  Beethoven Symphony No. 9
@@ -112,7 +156,7 @@ X Beethoven Leonore
 // MARK: Composers
 
 let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2000, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.", excerpts: [
-    beethovenleonore
+    beethovenleonore, beethoven4, beethoven5
 ])
 
 /**
@@ -123,7 +167,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore
+        beethovenleonore, beethoven4, beethoven5
     ]
     
     /**
@@ -138,10 +182,6 @@ class BassoonContentModel: ObservableObject {
 /*
  let bach = Composer(id: 0, name: "Johann Sebastian Bach", ipa: "joˈhan zeˈbastjan bɑx", image: 2000, country: "Germany", dates: "1685-1750", bio: "Johann Sebastian Bach was a German Baroque composer and musician. He is most well known for is keyboard works, and works for voice and orchestra. Bach was a master of counterpoint and harmonic organization and his influences in these fields continue to affect composers to this day.", excerpts: [
      bachCelloSuite
- ])
-
- let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2001, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.", excerpts: [
-     beethoven5, beethoven9
  ])
 
  let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌoʊz", image: 2002, country: "France", dates: "1803-1869", bio: "Hector Berlioz was a French Romantic composer, who gained his popularity through his unwillingness to accept traditional rules and formulas. He frequently employed extended techniques in many instruments, and developed his own forms and techniques for composition. He was internationally acclaimed as a conductor, and was also a prominant musical journalist.", excerpts: [

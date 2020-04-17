@@ -48,8 +48,26 @@ struct MoreView: View {
                             .padding(.bottom, 80)
                     }
                     
+                    Spacer()
                     
-                    //TODO: Link to Ars Nova Publishing Website
+                    HStack {
+                        Image("reflectionsCover")
+                            .resizable()
+                                .scaledToFit()
+                                .frame(height: 150)
+                        Button(action: {
+                            let url = URL(string: "https://www.arsnovapublishing.com")!
+                            UIApplication.shared.open(url)
+                        }) {
+                            VStack(alignment: .leading) {
+                                Text("Ars Nova Publishing")
+                                    .font(.headline)
+                                Text("Refreshing, daring new works for Bassoon. Visit our website to learn more, or to see some of our other projects.")
+                                    .font(.caption)
+                                    .padding(.vertical)
+                            }
+                        }
+                    }
                     
                     Text("© 2020 Alexander Burdiss & Qian Yu")
                         .padding()
