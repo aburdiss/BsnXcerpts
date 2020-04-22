@@ -104,7 +104,6 @@ let beethoven6 = Composition(id: 3, composer: "Ludwig van Beethoven", composerLa
     ["", ""]
 ])
 
-//TODO: Add Bsn2 & Contra parts
 let beethoven9 = Composition(id: 4, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 9", date: "1824", era: "Early Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 9, description: "Excerpt 1", measures: "Mov. IV, mm. 116 to [A]", pictures: [["Bassoon 1", "1018"], ["Bassoon 2", "1019"]]),
     Excerpt(id: 10, description: "Excerpt 2", measures: "Mov. IV, mm. 663 - 671", pictures: [["Bassoon 1", "1021"], ["Bassoon 2", "1022"], ["Contrabassoon", "1023"]]),
@@ -152,6 +151,31 @@ let brahms1 = Composition(id: 7, composer: "Johannes Brahms", composerLast: "Bra
     ["Stanisław Skrowaczewski, Frankfurt Radio Symphony Orchestra", "9Ij6I_zhBdU"]
 ])
 
+let brahms3 = Composition(id: 8, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 3", date: "1883", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 20, description: "Excerpt 1", measures: "Mov. I, mm. 60 - 68", pictures: [["Bassoon 1", "1043"], ["Bassoon 2", "1044"]]),
+    Excerpt(id: 21, description: "Excerpt 2", measures: "Mov. I, mm. 112 - 120", pictures: [["Bassoon 1", "1045"], ["Bassoon 2", "1046"], ["Contrabassoon", "1047"]]),
+    Excerpt(id: 22, description: "Excerpt 3", measures: "Mov. IV, mm. 1 - 17", pictures: [["Bassoon 1", "1048"], ["Bassoon 2", "1049"]]),
+    Excerpt(id: 23, description: "Excerpt 4", measures: "Mov. IV, mm. 223 - 247", pictures: [["Bassoon 1", "1050"], ["Bassoon 2", "1051"], ["Contrabassoon", "1052"]])
+], videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "u68ETRjNQME"],
+    ["Bernard Haitink, Chamber Orchestra of Europe", "GF260OjcAjE"],
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "mAjvP_b0l7E"],
+    ["Edo de Waart, The Netherlands Philharmonic Orchestra", "a9TCjM9jhks"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "QaItCES17AY"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "4L0MqnAoEJM"],
+    ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "vMPP8DkVhk8"],
+    ["Seiji Ozawa, Saito Kinen Orchestra", "EN-ymlBxxTQ"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "wXiHNzRhoFw"],
+    ["Sir John Barbirolli, Wiener Philharmoniker (With Score)", "Lst1Aex2vcQ"]
+])
+
+let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerLast: "Brahms", name: "Variations on a Theme by Haydn", date: "1873", era: "Romantic", genre: "Variations", excerpts: [
+    Excerpt(id: 24, description: "Excerpt 1", measures: "Var. VI, mm. 264 - 292", pictures: [["Bassoon 1", "1053"], ["Bassoon 2", "1054"], ["Contrabassoon", "1055"]])
+], videos: [
+    // TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
 
 let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
 let pictures2 = [["Bassoon 1", ""], ["Bassoon 2", ""], ["Contrabassoon", ""]]
@@ -164,9 +188,9 @@ X Beethoven Symphony No. 6
 X Beethoven Symphony No. 9
 X Beethoven Violin Concerto in D
 X Berlioz Symphony Fantastique
- Brahms Symphony No. 1
- Brahms Symphony No. 3
- Brahms Variations on a Theme by Haydn
+X Brahms Symphony No. 1
+X Brahms Symphony No. 3
+X Brahms Variations on a Theme by Haydn
  Brahms Violin Concerto
  Donizetti L'elisir d'amore
  Dukas The Sorcerer's Apprentice
@@ -220,7 +244,7 @@ let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌo
 ])
 
 let brahms = Composer(id: 3, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2002, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
-    brahms1
+    brahms1, brahms3, brahmsVariations
 ])
 
 let donizetti = Composer(id: 4, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
@@ -277,7 +301,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1
+        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations
     ]
     
     /**
