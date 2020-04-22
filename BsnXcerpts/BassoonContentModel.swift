@@ -176,6 +176,38 @@ let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerL
     ["", ""]
 ])
 
+let brahmsViolin = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Violin Concerto", date: "1878", era: "Romantic", genre: "Violin Concerto", excerpts: [
+    Excerpt(id: 25, description: "Excerpt 1", measures: "Mov. II, mm. 1 - 32", pictures: [["Bassoon 1", "1056"], ["Bassoon 2", "1057"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["",""]
+])
+
+let donizettiLelisir = Composition(id: 11, composer: "Gaetano Donizetti", composerLast: "Donizetti", name: "L'elisir d'amore", date: "1832", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 26, description: "Excerpt 1", measures: "No. 11, mm. 2 - 9", pictures: [["Bassoon 1 and 2", "1058"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let dukasSorcerer = Composition(id: 12, composer: "Paul Dukas", composerLast: "Dukas", name: "L'Apprenti sorcier", date: "1897", era: "Romantic", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 27, description: "Excerpt 1", measures: "[7] - [9]", pictures: [["Bassoon 1 and 2", "1059"], ["Bassoon 3", "1060"], ["Contrabassoon", "1061"]]),
+    Excerpt(id: 28, description: "Excerpt 2", measures: "[43] - [45]", pictures: [["Bassoon 1 and 2", "1062"], ["Bassoon 3", "1063"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let mahler2 = Composition(id: 13, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 29, description: "Excerpt 1", measures: "Mov. III, [37] - [40]", pictures: [["Bassoon 1", "1064"], ["Bassoon 2", "1065"], ["Bassoon 3", "1066"]])
+], videos: [
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "oUBx_Q-xw2M"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"],
+    ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"],
+    ["Leonard Bernstein, New York Philharmonic (With Score)", "z2KcsjA_PEQ"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"],
+])
+
 
 let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
 let pictures2 = [["Bassoon 1", ""], ["Bassoon 2", ""], ["Contrabassoon", ""]]
@@ -191,10 +223,10 @@ X Berlioz Symphony Fantastique
 X Brahms Symphony No. 1
 X Brahms Symphony No. 3
 X Brahms Variations on a Theme by Haydn
- Brahms Violin Concerto
- Donizetti L'elisir d'amore
- Dukas The Sorcerer's Apprentice
- Mahler Symphony No. 2
+X Brahms Violin Concerto
+X Donizetti L'elisir d'amore
+X Dukas The Sorcerer's Apprentice
+X Mahler Symphony No. 2
  Mahler Symphony No. 4
  Mahler Symphony No. 5
  Mahler Symphony No. 9
@@ -244,16 +276,19 @@ let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌo
 ])
 
 let brahms = Composer(id: 3, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2002, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
-    brahms1, brahms3, brahmsVariations
+    brahms1, brahms3, brahmsVariations, brahmsViolin
 ])
 
-let donizetti = Composer(id: 4, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
+let donizetti = Composer(id: 4, name: "Gaetano Donizetti", ipa: "ɡaeˈtaːno donidˈdzetti", image: 2003, country: "Italy", dates: "1797-1848", bio: "Donizetti was one of the leading composers of the Bel Canto opera style, along with Rossini and Bellini. Donizetti did not come from a musical background, but was taken up by the composer Simon Mayr at a young age and enrolled in a music school. Throughout the course of his life he composed almost 70 operas. He moved to Paris towards the end of his career to escape the censorship that he was always subject to in Naples.", excerpts: [
+    donizettiLelisir
 ])
 
-let dukas = Composer(id: 5, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
+let dukas = Composer(id: 5, name: "Paul Dukas", ipa: "pɔl düˈka", image: 2004, country: "France", dates: "1865-1935", bio: "Dukas was a French composer, scholar, teacher, and critic. His music critiques were published regularly in five different French journals. Dukas was extremely self critical, and regularly abandoned and destroyed his own compositions.", excerpts: [
+    dukasSorcerer
 ])
 
-let mahler = Composer(id: 6, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 0, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
+let mahler = Composer(id: 6, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2005, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
+    mahler2
 ])
 
 let mendellsohn = Composer(id: 7, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
@@ -301,7 +336,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations
+        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2
     ]
     
     /**
