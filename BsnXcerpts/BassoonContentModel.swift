@@ -208,6 +208,37 @@ let mahler2 = Composition(id: 13, composer: "Gustav Mahler", composerLast: "Mahl
     ["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"],
 ])
 
+let mahler4 = Composition(id: 14, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 4", date: "1900", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 30, description: "Excerpt 1", measures: "Mov. I, 7 mm. after [11] - [13]", pictures: [["Bassoon 1", "1067"], ["Bassoon 2", "1068"], ["Bassoon 3", "1069"]]),
+    Excerpt(id: 31, description: "Excerpt 2", measures: "Mov. I, [19] - [20]", pictures: [["Bassoon 1", "1070"], ["Bassoon 2", "1071"], ["Bassoon 3", "1072"]]),
+    Excerpt(id: 32, description: "Excerpt 3", measures: "Mov. II, 8 mm. before [11] - 3 mm. before [11]", pictures: [["Bassoon 3", "1073"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let mahler5 = Composition(id: 15, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 5", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 33, description: "Excerpt 1", measures: "Mov. II, 8 mm. before [25] - 4 mm. before [30]", pictures: [["Bassoon 1", "1074"], ["Bassoon 2", "1075"], ["Contrabassoon", "1076"]]),
+    Excerpt(id: 34, description: "Excerpt 2", measures: "Mov. III, 8 mm. after [2] - 17 mm. after [2]", pictures: [["Bassoon 1", "1077"], ["Bassoon 2", "1078"], ["Contrabassoon", "1079"]])
+], videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "fEGNNuEM3Fc"],
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "MruTSRVecMo"],
+    ["Christoph Eschenbach, Sinfónica de Galicia", "1tCk6nOOdzI"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "vOvXhyldUko"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra", "1F5G9JngqZY"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "6EJn43FEmjo"],
+    ["Leonard Bernstein, Wiener Philharmoniker (With Score)", "nO0nytFsumo"],
+    ["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"]
+])
+
+let mahler9 = Composition(id: 16, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 9", date: "1910", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 35, description: "Excerpt 1", measures: "Mov. II, 9 mm. after [17] - 8 mm. after [18]", pictures: [["Bassoon 1", "1080"], ["Bassoon 2", "1081"], ["Bassoon 3", "1082"], ["Bassoon 4", "1083"]]),
+    Excerpt(id: 36, description: "Excerpt 2", measures: "Mov. II, 34 mm. before End to End", pictures: [["Bassoon 1", "1084"], ["Bassoon 2", "1085"], ["Bassoon 3", "1086"], ["Bassoon 4", "1087"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
 
 let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
 let pictures2 = [["Bassoon 1", ""], ["Bassoon 2", ""], ["Contrabassoon", ""]]
@@ -227,9 +258,9 @@ X Brahms Violin Concerto
 X Donizetti L'elisir d'amore
 X Dukas The Sorcerer's Apprentice
 X Mahler Symphony No. 2
- Mahler Symphony No. 4
- Mahler Symphony No. 5
- Mahler Symphony No. 9
+X Mahler Symphony No. 4
+X Mahler Symphony No. 5
+X Mahler Symphony No. 9
  Mendelssohn A Midsummer Night's Dream
  Mendelssohn Symphony No. 3
  Mozart Cosi fan tutte
@@ -288,7 +319,7 @@ let dukas = Composer(id: 5, name: "Paul Dukas", ipa: "pɔl düˈka", image: 2004
 ])
 
 let mahler = Composer(id: 6, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2005, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
-    mahler2
+    mahler2, mahler4, mahler5, mahler9
 ])
 
 let mendellsohn = Composer(id: 7, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
@@ -336,7 +367,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2
+        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9
     ]
     
     /**
