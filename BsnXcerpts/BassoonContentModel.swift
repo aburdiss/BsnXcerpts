@@ -100,8 +100,13 @@ let beethoven6 = Composition(id: 3, composer: "Ludwig van Beethoven", composerLa
     Excerpt(id: 7, description: "Excerpt 1", measures: "Mov. I, mm. 33 - 55", pictures: [["Bassoon 1", "1014"], ["Bassoon 2", "1015"]]),
     Excerpt(id: 8, description: "Excerpt 2", measures: "Mov. II, mm. 7 - 13", pictures: [["Bassoon 1", "1016"], ["Bassoon 2", "1017"]])
 ], videos: [
-    // TODO: Add YouTube Parts here.
-    ["", ""]
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "Zv4PIFRpYcw"],
+    ["Christian Thielemann, Wiener Philharmoniker", "23VcuR55_j4"],
+    ["Daniel Barenboim, West-Eastern Divan Orchestra", "aW-7CqxhnAQ"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "p4CCU2-AFZE"],
+    ["James Loughran, London Philarmonic Orchestra", "fRg0K5rgXog"],
+    ["Leonard Bernstein, Boston Symphony Orchestra", "t2VY33VXnrQ"],
+    ["Paavo Jarvi, Deutsche Kammerphilharmonie Bremen", "iQGm0H9l9I4"]
 ])
 
 let beethoven9 = Composition(id: 4, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 9", date: "1824", era: "Early Romantic", genre: "Symphony", excerpts: [
@@ -123,8 +128,14 @@ let beethovenViolin = Composition(id: 5, composer: "Ludwig van Beethoven", compo
     Excerpt(id: 12, description: "Excerpt 1", measures: "Mov. II, mm. 20 - 30", pictures: [["Bassoon 1", "1027"]]),
     Excerpt(id: 13, description: "Excerpt 2", measures: "Mov. III, mm. 133 - 158", pictures: [["Bassoon 1", "1028"]])
 ], videos: [
-    //TODO: Add YouTube Parts Here.
-    ["", ""]
+    ["Bernard Haitink, Royal Concertgebouw Orchestra", "DoVwXtJkycU"],
+    ["Carlo Maria Giulini, Philharmonia Orchestra", "iR8vHbiTADg"],
+    ["Joshua Bell, Orpheus Chamber Orchestra", "WqWl8K3svoI"],
+    ["Leonard Slatkin, Detroit Symphony Orchestra", "0Cg_0jepxow"],
+    ["Marek Pijarowski, Poznań Philharmonic Orchestra", "gIdqiis3Mts"],
+    ["Seiji Ozawa, Berliner Philharmoniker", "ZQVs4MhX3xo"],
+    ["Walter Weller, Orquesta Sinfónica de RTVE", "PvrPGO7ja3k"],
+    ["Yehudi Menuhin, Menuhin Festival Orchestra", "0qlcIdFd8X4"]
 ])
 
 let berliozSymphonieFantastique = Composition(id: 6, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Symphonie fantastique", date: "1830", era: "Romantic", genre: "Symphony", excerpts: [
@@ -172,8 +183,14 @@ let brahms3 = Composition(id: 8, composer: "Johannes Brahms", composerLast: "Bra
 let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerLast: "Brahms", name: "Variations on a Theme by Haydn", date: "1873", era: "Romantic", genre: "Variations", excerpts: [
     Excerpt(id: 24, description: "Excerpt 1", measures: "Var. VI, mm. 264 - 292", pictures: [["Bassoon 1", "1053"], ["Bassoon 2", "1054"], ["Contrabassoon", "1055"]])
 ], videos: [
-    // TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Claudio Abbado, Berlin Philharmonic Orchestra", "BAuqxEMRapg"],
+    ["Cristian Măcelaru, WDR Sinfonieorchester", "wcobxmwCTys"],
+    ["Gustavo Dudamel, Berlin Philharmonic Orchestra", "BRu7CMg6wSs"],
+    ["Iván Fischer, Budapesti Fesztiválzenekar", "2h9uLF0LqtM"],
+    ["Nikolaus Harnoncourt, Berlin Philharmonic Orchestra", "02F9-SWkzc4"],
+    ["Ricardo Muti, Philadelphia Orchestra (With Score)", "oMJVCdhJZPk"],
+    ["Richard Davis, University of Melbourne Symphony Orchestra", "QmQLb5SZb4E"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "vQ-JIXjFykc"]
 ])
 
 let brahmsViolin = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Violin Concerto", date: "1878", era: "Romantic", genre: "Violin Concerto", excerpts: [
@@ -238,6 +255,12 @@ let mahler9 = Composition(id: 16, composer: "Gustav Mahler", composerLast: "Mahl
     //TODO: Find YouTube Videos for this.
     ["", ""]
 ])
+let mendelssohnMidsummer = Composition(id: 17, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "A Midsummer Night's Dream", date: "1842", era: "Romantic", genre: "Incidental Music", excerpts: [
+    Excerpt(id: 37, description: "Excerpt 1", measures: "No. I, mm. 1 - 26", pictures: [["Bassoon 1", "1088"], ["Bassoon 2", "1089"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
 
 
 let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
@@ -261,7 +284,7 @@ X Mahler Symphony No. 2
 X Mahler Symphony No. 4
 X Mahler Symphony No. 5
 X Mahler Symphony No. 9
- Mendelssohn A Midsummer Night's Dream
+X Mendelssohn A Midsummer Night's Dream
  Mendelssohn Symphony No. 3
  Mozart Cosi fan tutte
  Mozart Symphony No. 35
@@ -322,7 +345,8 @@ let mahler = Composer(id: 6, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ 
     mahler2, mahler4, mahler5, mahler9
 ])
 
-let mendellsohn = Composer(id: 7, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
+let mendellsohn = Composer(id: 7, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2006, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
+    mendelssohnMidsummer
 ])
 
 let mozart = Composer(id: 8, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 0, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
@@ -367,7 +391,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9
+        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9, mendelssohnMidsummer
     ]
     
     /**
