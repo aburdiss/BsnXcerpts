@@ -255,11 +255,72 @@ let mahler9 = Composition(id: 16, composer: "Gustav Mahler", composerLast: "Mahl
     //TODO: Find YouTube Videos for this.
     ["", ""]
 ])
+
 let mendelssohnMidsummer = Composition(id: 17, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "A Midsummer Night's Dream", date: "1842", era: "Romantic", genre: "Incidental Music", excerpts: [
     Excerpt(id: 37, description: "Excerpt 1", measures: "No. I, mm. 1 - 26", pictures: [["Bassoon 1", "1088"], ["Bassoon 2", "1089"]])
 ], videos: [
     //TODO: Find YouTube Videos for this.
     ["", ""]
+])
+
+let mendelssohn3 = Composition(id: 18, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "Symphony No. 3", date: "1842", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 38, description: "Excerpt 1", measures: "Mov. II, mm. 48 - 67", pictures: [["Bassoon 1", "1090"], ["Bassoon 2", "1091"]]),
+    Excerpt(id: 39, description: "Excerpt 2", measures: "Mov. II, mm. 190 - 213", pictures: [["Bassoon 1", "1092"], ["Bassoon 2", "1093"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["",""]
+])
+
+let mozartCosi = Composition(id: 19, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Così fan tutte", date: "1790", era: "Classical", genre: "Opera", excerpts: [
+    Excerpt(id: 40, description: "Excerpt 1", measures: "Overture, mm. 33 - 45", pictures: [["Bassoon 1", "1094"], ["Bassoon 2", "1095"]]),
+    Excerpt(id: 41, description: "Excerpt 2", measures: "Overture, mm. 175 - 178", pictures: [["Bassoon 1", "1096"], ["Bassoon 2", "1097"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let mozart35 = Composition(id: 20, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 35", date: "1782", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 42, description: "Excerpt 1", measures: "Mov. IV, mm. 9 - [A]", pictures: [["Bassoon 1", "1098"], ["Bassoon 2", "1099"]]),
+    Excerpt(id: 43, description: "Excerpt 2", measures: "Mov. IV, mm. 147 - [E]", pictures: [["Bassoon 1", "1100"], ["Bassoon 2", "1101"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let mozart41 = Composition(id: 21, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 41", date: "1788", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 44, description: "Excerpt 1", measures: "Mov. I, mm. 62 - 71", pictures: [["Bassoon 1", "1102"]]),
+    Excerpt(id: 45, description: "Excerpt 2", measures: "Mov. I, mm. 105 - 111", pictures: [["Bassoon 1", "1103"]]),
+    Excerpt(id: 46, description: "Excerpt 3", measures: "Mov. I, mm. 183 - 190", pictures: [["Bassoon 1", "1104"], ["Bassoon 2", "1105"]]),
+    Excerpt(id: 47, description: "Excerpt 4", measures: "Mov. IV, mm. 154 - 172", pictures: [["Bassoon 1", "1106"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let mozartFigaro = Composition(id: 22, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Le nozze di Figaro", date: "1786", era: "Classical", genre: "Opera", excerpts: [
+    Excerpt(id: 48, description: "Excerpt 1", measures: "Overture, mm. 1 - 24", pictures: [["Bassoon 1 and 2", "1107"]]),
+    Excerpt(id: 49, description: "Excerpt 2", measures: "Overture, mm. 101 - 123", pictures: [["Bassoon 1 and 2", "1108"]]),
+    Excerpt(id: 50, description: "Excerpt 3", measures: "Overture, mm. 139 - 171", pictures: [["Bassoon 1 and 2", "1109"]]),
+    Excerpt(id: 51, description: "Excerpt 4", measures: "Overture, mm. 214 - 236", pictures: [["Bassoon 1 and 2", "1110"]])
+], videos: [
+    //TODO: Find YouTube Vidoes for this.
+    ["", ""]
+])
+
+let ravelMiroirs = Composition(id: 23, composer: "Maurice Ravel", composerLast: "Ravel", name: "Miroirs", date: "1905", era: "Modern", genre: "Piano Suite", excerpts: [
+    Excerpt(id: 52, description: "Excerpt 1", measures: "No. 4, [9] - [12]", pictures: [["Bassoon 1 and 2", "1111"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "Ravel", name: "Boléro", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
+    Excerpt(id: 53, description: "Excerpt 1", measures: "[2] - [3]", pictures: [["Bassoon 1 and 2", "1112"]])
+], videos: [
+    ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
+    ["Riccardo Muti, l'Orchestra della Scala di Milano", "64qB8qBoRF8"],
+    ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"],
+    ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"]
 ])
 
 
@@ -285,13 +346,13 @@ X Mahler Symphony No. 4
 X Mahler Symphony No. 5
 X Mahler Symphony No. 9
 X Mendelssohn A Midsummer Night's Dream
- Mendelssohn Symphony No. 3
- Mozart Cosi fan tutte
- Mozart Symphony No. 35
- Mozart Symphony No. 41
- Mozart The Marriage of Figaro
- Ravel Alborada del gracioso
- Ravel Bolero
+X Mendelssohn Symphony No. 3
+X Mozart Cosi fan tutte
+X Mozart Symphony No. 35
+X Mozart Symphony No. 41
+X Mozart The Marriage of Figaro
+X Ravel Alborada del gracioso
+X Ravel Bolero
  Ravel Ma mere l'Oye
  Ravel Rapsodie espagnole
  Rimsky-Korsakov Scheherazade
@@ -346,13 +407,15 @@ let mahler = Composer(id: 6, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ 
 ])
 
 let mendellsohn = Composer(id: 7, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2006, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
-    mendelssohnMidsummer
+    mendelssohnMidsummer, mendelssohn3
 ])
 
-let mozart = Composer(id: 8, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 0, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
+let mozart = Composer(id: 8, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2007, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
+    mozartCosi, mozart35, mozart41, mozartFigaro
 ])
 
-let ravel = Composer(id: 9, name: "Maurice Ravel", ipa: "moʊˈris rəˈvɛl", image: 0, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.", excerpts: [
+let ravel = Composer(id: 9, name: "Maurice Ravel", ipa: "moʊˈris rəˈvɛl", image: 2008, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.", excerpts: [
+    ravelMiroirs, ravelBolero
 ])
 
 let rimskyKorsakov = Composer(id: 10, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 0, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
@@ -391,7 +454,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9, mendelssohnMidsummer
+        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozartCosi, mozart35, mozart41, mozartFigaro, ravelMiroirs, ravelBolero
     ]
     
     /**
