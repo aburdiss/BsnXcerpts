@@ -323,6 +323,238 @@ let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "
     ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"]
 ])
 
+let ravelMaMere = Composition(id: 25, composer: "Maurice Ravel", composerLast: "Ravel", name: "Ma mére l'Oye", date: "1910", era: "Modern", genre: "Suite", excerpts: [
+    Excerpt(id: 54, description: "Excerpt 1", measures: "No. IV, [2] - 9 mm. after [5]", pictures: [["Bassoon 1 and 2", "1113"], ["Contrabassoon", "1114"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let ravelRapsodie = Composition(id: 26, composer: "Maurice Ravel", composerLast: "Ravel", name: "Rapsodie espagnole", date: "1907", era: "Modern", genre: "Orchestral Rhapsody", excerpts: [
+    Excerpt(id: 55, description: "Excerpt 1", measures: "Mov. I, [8] - [9]", pictures: [["Bassoon 1 and 2", "1115"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let rimskyKorsakovScheherazade = Composition(id: 27, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Symphonic Suite", excerpts: [
+    Excerpt(id: 56, description: "Excerpt 1", measures: "Mov. II, mm. 5 - [A]", pictures: [["Bassoon 1", "1116"]]),
+    Excerpt(id: 57, description: "Excerpt 2", measures: "Mov. II, [L] - [M]", pictures: [["Bassoon 1", "1117"]])
+], videos: [
+    ["André Previn, Vienna Philharmonic Orchestra", "p_iPn1GbUUU"],
+    ["Eugene Ormandy, Philadelphia Orchestra", "LEN5ObBND88"],
+    ["Leif Segerstam, Sinfónica de Galicia", "zY4w4_W30aQ"],
+    ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"],
+    ["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"],
+    ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"],
+    ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"]
+])
+
+let rossiniLaGazza = Composition(id: 28, composer: "Gioachino Rossini", composerLast: "Rossini", name: "La gazza ladra", date: "1817", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 58, description: "Excerpt 1", measures: "Overture, [D] - [E]", pictures: [["Bassoon 1", "1118"], ["Bassoon 2", "1119"]])
+], videos: [
+    ["Boian Videnoff, Mannheimer Philharmoniker", "KYfaKAIf-SU"],
+    ["Daniel Harding, Orchestra del Teatro La Fenice", "UjDXNqG0Deg"],
+    ["Gianluigi Gelmetti, Orchestra Sinfonica della RAI di Torino", "0F73mZjtMXU"],
+    ["Gustavo Dudamel, Wiener Philharmoniker", "3MIbDR1QRHs"],
+    ["Michael Halasz, Zagreb Festival Orchestra", "Qqa_NADTVQw"],
+    ["Sir Thomas Beecham,  the Royal Philharmonic Orchestra", "Kw1bfRa83EQ"]
+])
+
+let sibelius2 = Composition(id: 29, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Modern", genre: "Symphony", excerpts: [
+    Excerpt(id: 59, description: "Excerpt 1", measures: "Mov. II, mm. 40 - 55", pictures: [["Bassoon 1", "1120"], ["Bassoon 2", "1121"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let sibeliusViolin = Composition(id: 30, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Violin Concerto", date: "1904", era: "Modern", genre: "Violin Concerto", excerpts: [
+    Excerpt(id: 60, description: "Excerpt 1", measures: "Mov. II, mm. 10 - 21", pictures: [["Bassoon 1", "1122"], ["Bassoon 2", "1123"]])
+], videos: [
+    //TODO: Find YouTube videos for this.
+    ["", ""]
+])
+
+let smetanaBarteredBride = Composition(id: 31, composer: "Bedřich Smetana", composerLast: "Smetana", name: "The Bartered Bride", date: "1866", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 61, description: "Excerpt 1", measures: "Overture, mm. 1 - 11", pictures: [["Bassoon 1", "1124"], ["Bassoon 2", "1125"]])
+], videos: [
+    ["Jac van Steen, Garsington Opera", "bBHSzJoDNC4"],
+    ["Jiří Bělohlávek, Česká filharmonie", "9eWXqxKX0KI"],
+    ["Mariss Jansons, Berliner Philharmoniker", "QLUm_yvnyo4"],
+    ["Theodore Kuchar, Janáček Philharmonic Orchestra", "nk8g9VvD9M4"],
+    ["Zděnek Košler, Česká filharmonie", "nv1uDEg92-4"]
+])
+
+let rStraussAlsoSprach = Composition(id: 32, composer: "Richard Strauss", composerLast: "Strauss", name: "Also sprach Zarathustra", date: "1896", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 62, description: "Excerpt 1", measures: "[55] to [56]", pictures: [["Bassoon 1", "1126"]])
+], videos: [
+    ["Andris Nelsons, Berliner Philharmoniker", "xJoYv6A-UOU"],
+    ["Georg Solti, Chicago Symphony Orchestra", "IFPwm0e_K98"],
+    ["Giuseppe Sinopoli, Staatskapelle Dresden", "LpNRBublNr0"],
+    ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra (With Score)", "c8r_pZoaZf0"],
+    ["Herbert von Karajan, Vienna Philharmonic", "h3eEHZCahVU"],
+    ["Jonathan Nott, Gustav Mahler Youth Orchestra", "6RdZ7rO_cr0"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "D4d88IgvhK4"],
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"]
+])
+
+let straussDeathAndTransfiguration = Composition(id: 33, composer: "Richard Strauss", composerLast: "Strauss", name: "Death and Transfiguration", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 63, description: "Excerpt 1", measures: "Allegro, molto agitato - 2 mm. before [F]", pictures: [["Bassoon 1", "1127"], ["Bassoon 2", "1128"], ["Contrabassoon", "1129"]]),
+    Excerpt(id: 64, description: "Excerpt 2", measures: "7 mm. before [T] - 8 mm. after [T]", pictures: [["Bassoon 1", "1130"], ["Bassoon 2", "1131"], ["Contrabassoon", "1132"]])
+], videos: [
+    ["Alexis Hauser, McGill Symphony Orchestra", "Pd_GmPLPpRg"],
+    ["Arturo Toscanini, NBC Orchestra (With Score)", "L3bD7g3mp_Y"],
+    ["David Zinman, Tonhalle Orchestra Zürich (With Score)", "6hfQpaePuxo"],
+    ["David Zinman, Zurich Tonhalle Orchestra", "3D5Up1aYJJs"],
+    ["George Szell, Cleveland Orchestra", "4K3E1wZWSn0"],
+    ["George Szell, Cleveland Orchestra", "jHiNvJr-OxY"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "4f92pYZYGfc"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "W6M3NdqyXNc"],
+    ["Jan Latham-Koenig, Symfonieorkest Vlaanderen", "mu2M67IQ68Q"],
+    ["Mikko Franck, Orchestre Philharmonique de Radio France", "umfttWN5xYo"]
+])
+
+let straussDonJuan = Composition(id: 34, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Juan", date: "1888", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 65, description: "Excerpt 1", measures: "[A] - [B]", pictures: [["Bassoon 1", "1133"], ["Bassoon 2", "1134"], ["Contrabassoon", "1135"]])
+], videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "XG4uBRBMdzY"],
+    ["Georg Solti, Chicago Symphony Orchestra", "_um5yLJx-RM"],
+    ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"],
+    ["Thomas Schippers, Cincinnati Symphony Orchestra (With Score)", "8woshq-F21s"],
+    ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"]
+])
+
+let straussDonQuixote = Composition(id: 35, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Quixote", date: "1897", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 66, description: "Excerpt 1", measures: "Var. IX, 8 mm. before [65] - 7 mm. after [65]", pictures: [["Bassoon 1", "1136"], ["Bassoon 2", "1137"]])
+], videos: [
+    //TODO: Find YouTube Videos for this.
+    ["", ""]
+])
+
+let straussHeldenleben = Composition(id: 36, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 67, description: "Excerpt 1", measures: "[86] - [87]", pictures: [["Bassoon 1", "1138"], ["Bassoon 2", "1139"]])
+], videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra (With Score)", "mE-mZUEXWsg"],
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "Us1jfC7bMpA"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "nu5AXJGmkJk"],
+    ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
+    ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
+    ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"]
+])
+
+let straussEulenspiegel = Composition(id: 37, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegel's Merry Pranks", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 68, description: "Excerpt 1", measures: "6 mm. before [32] to 8 mm. after [33]", pictures: [["Bassoon 1", "1140"], ["Bassoon 2", "1141"], ["Contrabassoon", "1142"]])
+], videos: [
+    ["Christoph von Dohnányi, NDR Elbphilharmonie Orchester", "EMcQQFWAnA0"],
+    ["Georg Solti, Wiener Philharmoniker", "ZpA47nVfgBY"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "99qWgSItaNQ"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "1zbCfP9wGt4"],
+    ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunk (With Score)", "QV5r9KG1eyc"],
+    ["Richard Strauss, Vienna Philharmonic", "IouFZBgEG3s"],
+    ["Masahiko Tanaka, Waseda Symphony Orchestra", "S7O9Oa22nsQ"],
+    ["Zubin Mehta, New York Philharmonic", "ZU556MvQN6c"]
+])
+
+let stravinskyFirebird = Composition(id: 38, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Firebird", date: "1910", era: "Modern", genre: "Ballet", excerpts: [
+    Excerpt(id: 69, description: "Excerpt 1", measures: "Berceuse, [1] - [3]", pictures: [["Bassoon 1", "1147"]]),
+    Excerpt(id: 70, description: "Excerpt 2", measures: "Berceuse, [6] - [8]", pictures: [["Bassoon 1", "1148"]])
+], videos: [
+    ["정명훈 (Chung Myung-Whun), Orchestre de l'Opera Bastille (With Score)", "6wbkKWrUD-A"],
+    ["Igor Stravinsky, NHK Symphony Orchestra", "U-u33i1M0fI"],
+    ["Igor Stravinsky, New York Philharmonic", "IrMGqAmjbug"],
+    ["Ion Marin, London Symphony Orchestra", "i_T5O2u4sGA"],
+    ["Poul Jorgensen, Royal Danish Orchestra", "Yo9L9H--t3k"],
+    ["Peter Oundjian, Toronto Symphony Orchestra", "pHxstiIybz4"],
+    ["Pierre Boulez, Chicago Symphony Orchestra (With Score)", "MHmk7yccvws"],
+    ["Pierre Boulez, Chicago Symphony Orchestra", "QlCzpkpQ3qs"],
+    ["Valery Gergiev, Kirov theatre Orchestra", "SIIdf07cDFc"],
+    ["Valery Gergiev, Vienna Philharmonic", "RZkIAVGlfWk"]
+])
+
+let stravinskyRite = Composition(id: 39, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Rite of Spring", date: "1913", era: "Modern", genre: "Ballet", excerpts: [
+    Excerpt(id: 71, description: "Excerpt 1", measures: "Part I, mm. 1 - 15", pictures: [["Bassoon 1", "1143"], ["Bassoon 2", "1144"], ["Bassoon 3", "1145"]]),
+    Excerpt(id: 72, description: "Excerpt 2", measures: "Part I, [12] - 4 mm. after [12]", pictures: [["Bassoon 1", "1146"]])
+], videos: [
+    //TODO: Find YouTube videos for this.
+    ["", ""]
+])
+
+let stravinskySoldiers = Composition(id: 40, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "L'histoire du soldat", date: "1918", era: "Modern", genre: "Theatrical Work", excerpts: [
+    Excerpt(id: 73, description: "Excerpt 1", measures: "No. III (Ragtime), [26] - 3 mm. after [27]", pictures: [["Bassoon", "1149"]])
+], videos: [
+    //TODO: Find YouTube videos for this.
+    ["", ""]
+])
+
+let stravinskyNightengale = Composition(id: 41, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Le Chant du rossignol", date: "1917", era: "Modern", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 74, description: "Excerpt 1", measures: "4 mm. after [18] - 2 mm. after [20]", pictures: [["Bassoon 1 and 2", "1150"]]),
+    Excerpt(id: 75, description: "Excerpt 2", measures: "[35] - [38]", pictures: [["Bassoon 1 and 2", "1151"]]),
+    Excerpt(id: 76, description: "Excerpt 3", measures: "[65] - [67]", pictures: [["Bassoon 1 and 2", "1152"]])
+], videos: [
+    //TODO: Find YouTube videos for this.
+    ["", ""]
+])
+
+let tchaikRomeo = Composition(id: 42, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Romeo and Juliet", date: "1880", era: "Romantic", genre: "Overture, Fantasia", excerpts: [
+    Excerpt(id: 77, description: "Excerpt 1", measures: "mm. 164 - 175", pictures: [["Bassoon 1", "1153"], ["Bassoon 2", "1154"]])
+], videos: [
+    //TODO: Find YouTube videos for this.
+    ["", ""]
+])
+
+let tchaik4 = Composition(id: 43, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 78, description: "Excerpt 1", measures: "Mov. I, [E] - m. 114", pictures: [["Bassoon 1", "1155"]]),
+    Excerpt(id: 79, description: "Excerpt 2", measures: "Mov. I, mm. 294 - 300", pictures: [["Bassoon 1", "1156"]]),
+    Excerpt(id: 80, description: "Excerpt 3", measures: "Mov. II, m. 274 to End", pictures: [["Bassoon 1", "1157"]])
+], videos: [
+    ["Carlos Miguel Prieto, Frankfurt Radio Symphony", "Y7G5ithbFys"],
+    ["Christian Lindberg, The Arctic Philharmonic Orchestra", "ieYFdj1wI_M"],
+    ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
+    ["Gennady Rozhdestvensky, USSR State TV and Radio Symphony Orchestra (With Score)", "_Xldfaf4NGw"],
+    ["Herbert Von Karajan, Vienna Philharmonic Orchestra", "cnXd4ZqN_c8"],
+    ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"]
+])
+
+let tchaik5 = Composition(id: 44, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 81, description: "Excerpt 1", measures: "Mov. I, [Q] - 13 mm. after [Q]", pictures: [["Bassoon 1", "1158"], ["Bassoon 2", "1159"]]),
+    Excerpt(id: 82, description: "Excerpt 2", measures: "Mov. II, 4 mm. before [D] - 4 mm. after [E]", pictures: [["Bassoon 1", "1160"], ["Bassoon 2", "1161"]]),
+    Excerpt(id: 83, description: "Excerpt 3", measures: "Mov. III, 5 mm. after [A] - 18 mm. after [D]", pictures: [["Bassoon 1", "1162"], ["Bassoon 2", "1163"]])
+], videos: [
+    ["Elim Chan, Netherlands Philharmonic Orchestra", "xFf5GA2UpMs"],
+    ["Emmanuel Krivine, Orchestre National de France", "Z1hFlRVB7DI"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "NeNeQrUXymg"],
+    ["Leonard Bernstein, Boston Symphony Orchestra", "w2JBT0HC98I"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "4_PSjr47AUo"],
+    ["Manfred Honeck, Frankfurt Radio Symphony", "a_B02BZp-5Y"],
+    ["Valery Gergiev, Mariinsky Orchestra", "nmMLFvjkcEs"],
+    ["Vasily Petrenko, The Oslo Philharmonic", "JUk0WZVCnk4"]
+])
+
+let tchaik6 = Composition(id: 45, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 6", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 84, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 12", pictures: [["Bassoon 1", "1164"]]),
+    Excerpt(id: 85, description: "Excerpt 2", measures: "Mov. IV, mm. 2 - 36", pictures: [["Bassoon 1", "1165"], ["Bassoon 2", "1166"]])
+], videos: [
+    ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "IH-zp9LjiEs"],
+    ["Claudio Abbado, Orquesta Sinfónica Simón Bolívar", "zIJiPlbJjs8"],
+    ["Daniele Gatti, The Orchestre National de France", "NfusWGFWMq8"],
+    ["Georg Solti", "V4qLtjCXxkg"],
+    ["Herbert von Karajan, Wiener Philharmonic", "KvGC8hZC29U"],
+    ["Herbert von Karajan, Wiener Philharmonic", "-qgo1KFj0do"],
+    ["Lionel Bringuier, Frankfurt Radio Symphony Orchestra", "SVnF3x44rvU"],
+    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "8VswsTffasc"]
+])
+
+let wagnerTannhauser = Composition(id: 46, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 86, description: "Excerpt 1", measures: "Overture, mm. 1 - 16", pictures: [["Bassoon 1", "1167"], ["Bassoon 2", "1168"]])
+], videos: [
+    ["Christian Thielemann, Münchner Philharmoniker", "KTM7E4-DN0o"],
+    ["Daniel Barenboim", "Ozp8CbktEwQ"],
+    ["Klaus Tennstedt, Berliner Philharmoniker", "AWIjohOIYNc"],
+    ["Wolfgang Sawallisch, Bayreuth Festival Orchestra & Choir (With Score)", "LyZlLsBWwbo"],
+    ["Zubin Mehta, New York Philharmonic Orchestra (With Score)", "3_Eq9H4bSdQ"]
+])
+
 
 let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
 let pictures2 = [["Bassoon 1", ""], ["Bassoon 2", ""], ["Contrabassoon", ""]]
@@ -353,29 +585,29 @@ X Mozart Symphony No. 41
 X Mozart The Marriage of Figaro
 X Ravel Alborada del gracioso
 X Ravel Bolero
- Ravel Ma mere l'Oye
- Ravel Rapsodie espagnole
- Rimsky-Korsakov Scheherazade
- Rossini La Gazza Ladra
- Sibelius Symphony No. 2
- Sibelius Violin Concerto
- Smetana The Bartered Bride
- Strauss Also sprach Zarathustra
- Strauss Death and Transfiguration
- Strauss Don Juan
- Strauss Don Quixote
- Strauss Ein Heldenleben
- Strauss Till Eulenspiegels lustige Streiche
- Stravinsky Octet for Wind Instruments
- Stravinsky Pulcinella
- Stravinsky The Firebird
- Stravinsky The Rite of Spring
- Stravinsky The Soldier's Tale
- Stravinsky The Song of the Nightengale
- Tchaikovsky Romeo and Juliet
- Tchaikovsky Symphony No. 4
- Tchaikovsky Symphony No. 5
- Tchaikovsky Symphony No. 6
+X Ravel Ma mere l'Oye
+X Ravel Rapsodie espagnole
+X Rimsky-Korsakov Scheherazade
+X Rossini La Gazza Ladra
+X Sibelius Symphony No. 2
+X Sibelius Violin Concerto
+X Smetana The Bartered Bride
+X Strauss Also sprach Zarathustra
+X Strauss Death and Transfiguration
+X Strauss Don Juan
+X Strauss Don Quixote
+X Strauss Ein Heldenleben
+X Strauss Till Eulenspiegels lustige Streiche
+ Stravinsky Octet for Wind Instruments <- Cannot Find
+ Stravinsky Pulcinella <- Cannot Find
+X Stravinsky The Firebird
+X Stravinsky The Rite of Spring
+X Stravinsky The Soldier's Tale
+X Stravinsky The Song of the Nightengale
+X Tchaikovsky Romeo and Juliet
+X Tchaikovsky Symphony No. 4
+X Tchaikovsky Symphony No. 5
+X Tchaikovsky Symphony No. 6
  Wagner Tannhauser
  */
 
@@ -415,33 +647,41 @@ let mozart = Composer(id: 8, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf g�
 ])
 
 let ravel = Composer(id: 9, name: "Maurice Ravel", ipa: "moʊˈris rəˈvɛl", image: 2008, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.", excerpts: [
-    ravelMiroirs, ravelBolero
+    ravelBolero, ravelMaMere, ravelMiroirs, ravelRapsodie
 ])
 
-let rimskyKorsakov = Composer(id: 10, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 0, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
+let rimskyKorsakov = Composer(id: 10, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 2009, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
+    rimskyKorsakovScheherazade
 ])
 
-let rossini = Composer(id: 11, name: "Gioachino Rossini", ipa: "dʒɔ ɑkˈki nɔ roʊˈsi ni", image: 2017, country: "Italy", dates: "1792-1868", bio: "Rossini was an Italian composer from the romantic era. His 39 operas gained him great success early in life, but he unexplainably gave up music almost entirely for the last 40 years of his life.", excerpts: [
+let rossini = Composer(id: 11, name: "Gioachino Rossini", ipa: "dʒɔ ɑkˈki nɔ roʊˈsi ni", image: 2010, country: "Italy", dates: "1792-1868", bio: "Rossini was an Italian composer from the romantic era. His 39 operas gained him great success early in life, but he unexplainably gave up music almost entirely for the last 40 years of his life.", excerpts: [
+    rossiniLaGazza
 ])
 
-let sibelius = Composer(id: 12, name: "", ipa: "", image: 0, country: "", dates: "", bio: "", excerpts: [
-])
-
-
-let smetana = Composer(id: 13, name: "Bedřich Smetana", ipa: "ˌbɛdərʒɪx ˈsmɛtənə", image: 2021, country: "Austrian Empire, Austria-Hugary (Now Czech Republic)", dates: "1824-1884", bio: "Smetana was a child prodigy who had his first composition performed at age six. His music became closely tied to sentiments and movements of independant statehood. He became completely deaf for the last ten years of his life.", excerpts: [
-])
-
-let rStrauss = Composer(id: 14, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2022, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
-])
-
-let stravinsky = Composer(id: 15, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2023, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
-])
-
-let tchaikovsky = Composer(id: 16, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2024, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
+let sibelius = Composer(id: 12, name: "Jean Sibelius", ipa: "ʒɑn  sɪˈbeɪ li əs", image: 2011, country: "Finland", dates: "1865-1957", bio: "Sibelius is the most well known composer to come out of Finland. His music is credited with helping Finland to develop a national identity, and his most famous work \"Finlandia\" is known as Finland's unofficial national anthem. Sibelius mysteriously stopped composing in the last thirty years of his life, retiring to a quite life in Järvenpää.", excerpts: [
+    sibelius2, sibeliusViolin
 ])
 
 
-let wagner = Composer(id: 17, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2026, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
+let smetana = Composer(id: 13, name: "Bedřich Smetana", ipa: "ˌbɛdərʒɪx ˈsmɛtənə", image: 2012, country: "Austrian Empire, Austria-Hugary (Now Czech Republic)", dates: "1824-1884", bio: "Smetana was a child prodigy who had his first composition performed at age six. His music became closely tied to sentiments and movements of independant statehood. He became completely deaf for the last ten years of his life.", excerpts: [
+    smetanaBarteredBride
+])
+
+let rStrauss = Composer(id: 14, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2013, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
+    rStraussAlsoSprach, straussDeathAndTransfiguration, straussDonJuan, straussDonQuixote, straussHeldenleben, straussEulenspiegel
+])
+
+let stravinsky = Composer(id: 15, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2014, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
+    stravinskyFirebird, stravinskySoldiers, stravinskyNightengale, stravinskyRite
+])
+
+let tchaikovsky = Composer(id: 16, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2015, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
+    tchaikRomeo, tchaik4, tchaik5, tchaik6
+])
+
+
+let wagner = Composer(id: 17, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2016, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
+    wagnerTannhauser
 ])
 
 // MARK: Model
@@ -454,7 +694,7 @@ class BassoonContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozartCosi, mozart35, mozart41, mozartFigaro, ravelMiroirs, ravelBolero
+        beethovenleonore, beethoven4, beethoven5, beethoven6, beethoven9, beethovenViolin, berliozSymphonieFantastique, brahms1, brahms3, brahmsVariations, brahmsViolin, donizettiLelisir, dukasSorcerer, mahler2, mahler4, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozartCosi, mozart35, mozart41, mozartFigaro, ravelBolero, ravelMaMere, ravelMiroirs, ravelRapsodie, rimskyKorsakovScheherazade, rossiniLaGazza, sibelius2, sibeliusViolin, smetanaBarteredBride, rStraussAlsoSprach, straussDeathAndTransfiguration, straussDonJuan, straussDonQuixote, straussHeldenleben, straussEulenspiegel, stravinskyFirebird, stravinskySoldiers, stravinskyNightengale, stravinskyRite, tchaikRomeo, tchaik4, tchaik5, tchaik6, wagnerTannhauser
     ]
     
     /**
