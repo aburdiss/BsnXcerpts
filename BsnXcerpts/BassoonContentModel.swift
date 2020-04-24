@@ -196,23 +196,38 @@ let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerL
 let brahmsViolin = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Violin Concerto", date: "1878", era: "Romantic", genre: "Violin Concerto", excerpts: [
     Excerpt(id: 25, description: "Excerpt 1", measures: "Mov. II, mm. 1 - 32", pictures: [["Bassoon 1", "1056"], ["Bassoon 2", "1057"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["",""]
+    ["Bernard Haitink , Chamber Orchestra of Europe", "lJ1xKctJpQM"],
+    ["Carlo Maria Giulini, Chicago Symphony Orchestra ", "QS6b8JKzUeo"],
+    ["Christian Thielemann, Staatskapelle Dresden", "d6Gw_b5DXrg"],
+    ["Eduardo Marturet, Deutsches Symphonie-Orchester Berlin (With Score)", "1L29nRXWoCM"],
+    ["Jaap van Zweden, Verbier Festival Orchestra", "gSsk2rruC5c"],
+    ["Lawrence Foster, The Philarmonia Orchestra of London", "7C_U7eUbVd8"],
+    ["Otto Klemperer, Orchestre National de la Radiodiffusion Française", "KkfgFuCUe8w"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra","UFl9xuYP5T8"]
 ])
 
 let donizettiLelisir = Composition(id: 11, composer: "Gaetano Donizetti", composerLast: "Donizetti", name: "L'elisir d'amore", date: "1832", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 26, description: "Excerpt 1", measures: "No. 11, mm. 2 - 9", pictures: [["Bassoon 1 and 2", "1058"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Alfred Eschwé, The Metropolitan Opera", "zx1Y5ljpmzk"],
+    ["Gianandrea Gavazzeni, Orchestra del Maggio Musicale Fiorentino", "3sllHY2xpLY"],
+    ["Jesús López Cobos, Orchestre de Chambre de Lausanne", "iUwdO1OBdlA"],
+    ["Patrick Hansen, McGill Symphony Orchestra", "-PLqR8sYTLE"],
+    ["Riccardo Frizza, Orquesta Filarmonica de Gran Canaria", "uBJcBsbHCAo"],
+    ["Speranza Scappucci, Wiener Staatsoper", "zAXoOqIGlTY"]
 ])
 
 let dukasSorcerer = Composition(id: 12, composer: "Paul Dukas", composerLast: "Dukas", name: "L'Apprenti sorcier", date: "1897", era: "Romantic", genre: "Symphonic Poem", excerpts: [
     Excerpt(id: 27, description: "Excerpt 1", measures: "[7] - [9]", pictures: [["Bassoon 1 and 2", "1059"], ["Bassoon 3", "1060"], ["Contrabassoon", "1061"]]),
     Excerpt(id: 28, description: "Excerpt 2", measures: "[43] - [45]", pictures: [["Bassoon 1 and 2", "1062"], ["Bassoon 3", "1063"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Arturo Toscanini, New York Philharmonic Orchestra (With Score)", "WF7L43u_VE8"],
+    ["James Levine, Berliner Philharmoniker", "vg8JJ0S_Hus"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra", "GxH-nY3iq7g"],
+    ["Leopold Stokowski, Philadelphia Orchestra", "Gkj2QeogAsU"],
+    ["Lionel Bringuier, Frankfurt Radio Symphony Orchestra", "xazobZ22zro"],
+    ["Michail Jurowski, Moscow City Symphony", "U4yH4B9deok"],
+    ["Semyon Bychkov, Orchestre de Paris", "ugAdWqMrdZ0"]
 ])
 
 let mahler2 = Composition(id: 13, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
@@ -230,8 +245,13 @@ let mahler4 = Composition(id: 14, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 31, description: "Excerpt 2", measures: "Mov. I, [19] - [20]", pictures: [["Bassoon 1", "1070"], ["Bassoon 2", "1071"], ["Bassoon 3", "1072"]]),
     Excerpt(id: 32, description: "Excerpt 3", measures: "Mov. II, 8 mm. before [11] - 3 mm. before [11]", pictures: [["Bassoon 3", "1073"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "3-wcxLq-D10"],
+    ["Bernard Haitink, Radio Philharmonic Orchestra", "Ividyw_WPv4"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "YnfhInZLmUQ"],
+    ["Claudio Abbado, Wiener Philharmoniker", "GHYdlFPd_u0"],
+    ["George Szell, Cleveland Orchestra", "aDhb0ztacM0"],
+    ["Ivan Fischer, Budapest Festival Orchestra (With Score)", "fLqGSyu31yU"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "iHlJhuS_3TA"]
 ])
 
 let mahler5 = Composition(id: 15, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 5", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
@@ -252,39 +272,66 @@ let mahler9 = Composition(id: 16, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 35, description: "Excerpt 1", measures: "Mov. II, 9 mm. after [17] - 8 mm. after [18]", pictures: [["Bassoon 1", "1080"], ["Bassoon 2", "1081"], ["Bassoon 3", "1082"], ["Bassoon 4", "1083"]]),
     Excerpt(id: 36, description: "Excerpt 2", measures: "Mov. II, 34 mm. before End to End", pictures: [["Bassoon 1", "1084"], ["Bassoon 2", "1085"], ["Bassoon 3", "1086"], ["Bassoon 4", "1087"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Bernard Haitink, Concertgebouw Orchestra", "RjYs99atLUI"],
+    ["정명훈 (Chung Myung-Whun), Concergebouworkest", "7NKvBNliyN8"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "udhHFt--10Q"],
+    ["Daniel Barenboim, Staatskapelle Berlin", "RlGe8bsdpB8"],
+    ["Daniele Gatti, Vienna Philharmonic Orchestra", "Q1VjTuVntGE"],
+    ["Gustavo Dudamel, Los Angeles Philharmonic", "3GwrgASjQ9I"],
+    ["Leonard Bernstein, Berlin Philharmonic Orchestra (With Score)", "ah3mcaRpc9Q"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "IoNEeKJ2x44"]
 ])
 
 let mendelssohnMidsummer = Composition(id: 17, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "A Midsummer Night's Dream", date: "1842", era: "Romantic", genre: "Incidental Music", excerpts: [
     Excerpt(id: 37, description: "Excerpt 1", measures: "No. I, mm. 1 - 26", pictures: [["Bassoon 1", "1088"], ["Bassoon 2", "1089"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Alexis Hauser, McGill Symphony Orchestra", "zrhbm-kaxpk"],
+    ["András Vass, Pannon Philharmonic Orchestra", "vQUrs0V4syc"],
+    ["Avner Biron, The Israel Camerata Jerusalem Orchestra", "H2wYyTZKb6Q"],
+    ["Francesco d'Avalos, Philharmonia Orchestra", "mqOY-02XAFk"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "njdTB6HxTj8"],
+    ["Seiji Ozawa, Berlin Philharmonic", "yijwRZ6eqe0"],
+    ["Walter Weller, Royal Scottish Orchestra", "gJs4KkUxN2Y"]
 ])
 
 let mendelssohn3 = Composition(id: 18, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "Symphony No. 3", date: "1842", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 38, description: "Excerpt 1", measures: "Mov. II, mm. 48 - 67", pictures: [["Bassoon 1", "1090"], ["Bassoon 2", "1091"]]),
     Excerpt(id: 39, description: "Excerpt 2", measures: "Mov. II, mm. 190 - 213", pictures: [["Bassoon 1", "1092"], ["Bassoon 2", "1093"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["",""]
+    ["Claudio Abbado, London Symphony Orchestra (With Score)", "8YT5KCVrBDU"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "newJOqUYPBc"],
+    ["Kurt Masur, Gewandhausorchestra", "Q-zoNEO55yU"],
+    ["Leonard Bernstein, New York Philharmonic", "hPM14CM8HUs"],
+    ["Nikolaus Harnoncourt, Chamber Orchestra of Europe", "aeoxTvgEK0U"],
+    ["Otto Klemperer, Philharmonia Orchestra", "4nP0gqKmWuY"],
+    ["Rumon Gamba, Orquesta Sinfónica de Galicia", "FbH95mO_o3A"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "vRe3zSKolIY"]
 ])
 
 let mozartCosi = Composition(id: 19, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Così fan tutte", date: "1790", era: "Classical", genre: "Opera", excerpts: [
     Excerpt(id: 40, description: "Excerpt 1", measures: "Overture, mm. 33 - 45", pictures: [["Bassoon 1", "1094"], ["Bassoon 2", "1095"]]),
     Excerpt(id: 41, description: "Excerpt 2", measures: "Overture, mm. 175 - 178", pictures: [["Bassoon 1", "1096"], ["Bassoon 2", "1097"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["John Eliot Gardiner, English Baroque Soloists", "MXCEuYL1pBU"],
+    ["Karl Böhm, Wiener Philharmoniker", "XDqFkQRIqTU"],
+    ["Neville Marriner, Academy of St Martin in the Fields", "Is7smVObK64"],
+    ["Riccardo Muti, Wiener Staatsoper", "Egi7fxTEUCQ"],
+    ["Sinfonia Rotterdam (Overture, With Score)", "9-RkOrzMJMI"],
+    ["Sylvain Cambreling, Teatro Real de Madrid", "Lf904C53-iA"]
 ])
 
 let mozart35 = Composition(id: 20, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 35", date: "1782", era: "Classical", genre: "Symphony", excerpts: [
     Excerpt(id: 42, description: "Excerpt 1", measures: "Mov. IV, mm. 9 - [A]", pictures: [["Bassoon 1", "1098"], ["Bassoon 2", "1099"]]),
     Excerpt(id: 43, description: "Excerpt 2", measures: "Mov. IV, mm. 147 - [E]", pictures: [["Bassoon 1", "1100"], ["Bassoon 2", "1101"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Bernard Haitink, Chamber Orchestra of Europe", "8ZibUTCyrsg"],
+    ["George Szell, The Cleveland Orchestra", "5Y3-k92N7cU"],
+    ["Howard Williams, RCM Philharmonic", "0BdGepu19mo"],
+    ["Karl Böhm, Berliner Philharmoniker", "up4_6UKrcxE"],
+    ["Kirill Petrenko, Berliner Philharmoniker", "yw92MJruqsk"],
+    ["Seiji Ozawa, Mito Chamber Orchestra", "Vb4w6KCoVXM"],
+    ["Sir Antonio Pappano, Orchestra dell'Accademia Santa Cecilia", "KqTaCsfbIGE"],
+    ["Ton Koopman, Amsterdam Baroque Orchestra", "JEVoIZVfeCE"]
 ])
 
 let mozart41 = Composition(id: 21, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 41", date: "1788", era: "Classical", genre: "Symphony", excerpts: [
@@ -293,8 +340,15 @@ let mozart41 = Composition(id: 21, composer: "Wolfgang Amadeus Mozart", composer
     Excerpt(id: 46, description: "Excerpt 3", measures: "Mov. I, mm. 183 - 190", pictures: [["Bassoon 1", "1104"], ["Bassoon 2", "1105"]]),
     Excerpt(id: 47, description: "Excerpt 4", measures: "Mov. IV, mm. 154 - 172", pictures: [["Bassoon 1", "1106"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Dima Slobodeniouk, Sinfónica de Galicia", "ylJBlFq6joo"],
+    ["Karl Böhm, Berliner Philharmoniker", "BEKUUnkbZMA"],
+    ["Lorin Maazel, Sinfónica de Galicia", "C6EOb86YdIs"],
+    ["Nikolaus Harnoncourt, Chamber Orchestra of Europe", "I36Wz5Ow-aY"],
+    ["Simon Blendis, London Mozart Players", "jsDpT2Ch8UU"],
+    ["Sir Charles Mackerras, Scottish Chamber Orchestra", "Jp4dol4uSkw"],
+    ["Ton Koopman, Amsterdam Baroque Orchestra", "bxwS_bCXfFw"],
+    ["Wolfgang Sawallisch, Wiener Symphoniker", "lzwpYFyH-dQ"],
+    ["Zubin Mehta, Wiener Philharmoniker", "-ghek5HUrrg"]
 ])
 
 let mozartFigaro = Composition(id: 22, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Le nozze di Figaro", date: "1786", era: "Classical", genre: "Opera", excerpts: [
@@ -303,15 +357,22 @@ let mozartFigaro = Composition(id: 22, composer: "Wolfgang Amadeus Mozart", comp
     Excerpt(id: 50, description: "Excerpt 3", measures: "Overture, mm. 139 - 171", pictures: [["Bassoon 1 and 2", "1109"]]),
     Excerpt(id: 51, description: "Excerpt 4", measures: "Overture, mm. 214 - 236", pictures: [["Bassoon 1 and 2", "1110"]])
 ], videos: [
-    //TODO: Find YouTube Vidoes for this.
-    ["", ""]
+    ["Bernard Haitink, London Philharmonic Orchestra", "T7i4z3HtE_U"],
+    ["Claudio Abbado, Wiener Philharmoniker", "dj2zU20yyqM"],
+    ["Gérard Korsten, Orchestra e Coro del Teatro alla Scala", "_OYtlGpApc0"],
+    ["Karl Böhm, Wiener Philharmoniker", "SVyPWJdZx1U"],
+    ["Karl Böhm, Wiener Philharmoniker", "fef03047ZX8"],
+    ["Nikolaus Harnoncourt, Vienna Philharmonic", "y581_89UrIY"]
 ])
 
 let ravelMiroirs = Composition(id: 23, composer: "Maurice Ravel", composerLast: "Ravel", name: "Miroirs", date: "1905", era: "Modern", genre: "Piano Suite", excerpts: [
-    Excerpt(id: 52, description: "Excerpt 1", measures: "No. 4, [9] - [12]", pictures: [["Bassoon 1 and 2", "1111"]])
+    Excerpt(id: 52, description: "Excerpt 1", measures: "No. 4 (Alborada del Gracioso), [9] - [12]", pictures: [["Bassoon 1 and 2", "1111"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Herbert von Karajan, Orchestre de Paris", "HQ0NgNK-Hl0"],
+    ["Pablo Heras-Casado, Frankfurt Radio Symphony", "kGgEroiMBCY"],
+    ["Seiji Ozawa, Boston Symphony Orchestra", "paDKkCEWx1g"],
+    ["Seiji Ozawa, Boston Symphony Orchestra", "h_706v6fan4"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "TlP2lKUGs4M"]
 ])
 
 let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "Ravel", name: "Boléro", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
@@ -326,15 +387,24 @@ let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "
 let ravelMaMere = Composition(id: 25, composer: "Maurice Ravel", composerLast: "Ravel", name: "Ma mére l'Oye", date: "1910", era: "Modern", genre: "Suite", excerpts: [
     Excerpt(id: 54, description: "Excerpt 1", measures: "No. IV, [2] - 9 mm. after [5]", pictures: [["Bassoon 1 and 2", "1113"], ["Contrabassoon", "1114"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Charles Dutoit, Orchestre national de France", "IuCTTsCAOUk"],
+    ["정명훈 (Chung Myung-Whun), Orchestre Philharmonique de Radio France", "ZFVu8TP77Tw"],
+    ["Edward Gardner, Radio Filharmonisch Orkest", "o3rir1bWTyI"],
+    ["Julian Kuerti, Frankfurt Radio Symphony Orchestra", "N_ENSdLOblk"],
+    ["Nicolás Pasquet, The Orchestra of the University of Music FRANZ LISZT Weimar", "5U7osEigQZM"],
+    ["Pierre Boulez, Berliner Philharmoniker (With Score)", "7w7RqLSDeFw"],
+    ["Víctor Pablo Pérez, Orquesta Sinfónica de Galicia", "VosHWMwquE8"]
 ])
 
 let ravelRapsodie = Composition(id: 26, composer: "Maurice Ravel", composerLast: "Ravel", name: "Rapsodie espagnole", date: "1907", era: "Modern", genre: "Orchestral Rhapsody", excerpts: [
     Excerpt(id: 55, description: "Excerpt 1", measures: "Mov. I, [8] - [9]", pictures: [["Bassoon 1 and 2", "1115"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Charles Dutoit, Orchestre Symphonique de Montréal", "IDpxOmX3FD8"],
+    ["DePaul Symphony Orchestra", "SqDD4vjZJfw"],
+    ["Pablo Heras-Casado, Frankfurt Radio Symphony", "bbIAPqQcWkQ"],
+    ["Seiji Ozawa, Boston Symphony Orchestra", "-2cGymGpFpE"],
+    ["Seiji Ozawa, Boston Symphony Orchestra (With Score)", "2rEc_vksrnc"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "er0sduxzBFg"]
 ])
 
 let rimskyKorsakovScheherazade = Composition(id: 27, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Symphonic Suite", excerpts: [
@@ -364,15 +434,27 @@ let rossiniLaGazza = Composition(id: 28, composer: "Gioachino Rossini", composer
 let sibelius2 = Composition(id: 29, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Modern", genre: "Symphony", excerpts: [
     Excerpt(id: 59, description: "Excerpt 1", measures: "Mov. II, mm. 40 - 55", pictures: [["Bassoon 1", "1120"], ["Bassoon 2", "1121"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Dima Slobodeniouk, Orquesta Sinfónica de Galicia", "g82t0AJ1FnY"],
+    ["George Szell, Royal Concertgebouw Orchestra", "raIy56s-O7w"],
+    ["Gustavo Dudamel, Gothenburg Symphony Orchestra", "bpCcRZY1grc"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "WFfbXvJXimg"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "SAOf46CXaaw"],
+    ["Paavo Järvi, Orchestre Paris", "K97J2Vlk-a8"],
+    ["Petri Sakari, Iceland Symphony Orchestra (With Score)", "YXGxOa682Uc"],
+    ["Susanna Mälkki, Frankfurt Radio Symphony", "iXU8EXL7a_4"],
+    ["Yan Pascal Tortelier, Iceland Symphony Orchestra", "Z6iNaFWV3tc"]
 ])
 
 let sibeliusViolin = Composition(id: 30, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Violin Concerto", date: "1904", era: "Modern", genre: "Violin Concerto", excerpts: [
     Excerpt(id: 60, description: "Excerpt 1", measures: "Mov. II, mm. 10 - 21", pictures: [["Bassoon 1", "1122"], ["Bassoon 2", "1123"]])
 ], videos: [
-    //TODO: Find YouTube videos for this.
-    ["", ""]
+    ["Christoph Eschenbach, SWR Symphonieorchester", "iIafobNq-tU"],
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "YsbrRAgv1b4"],
+    ["Eugene Ormandy, The Philadelphia Orchestra", "M-P183jzdfw"],
+    ["Jaap van Zweden, Radio Filharmonisch Orkest", "gpS_u5RvMpM"],
+    ["Kent Nagano, Gothenburg Symphony Orchestra", "3u-unvYedx8"],
+    ["Mikko Franck, Orchestre Philharmonique de Radio France", "J0w0t4Qn6LY"],
+    ["Sixten Ehrling, Stockholm Radio Symphony Orchestra (With Score)", "5gwjkFoBX4Y"]
 ])
 
 let smetanaBarteredBride = Composition(id: 31, composer: "Bedřich Smetana", composerLast: "Smetana", name: "The Bartered Bride", date: "1866", era: "Romantic", genre: "Opera", excerpts: [
@@ -428,8 +510,13 @@ let straussDonJuan = Composition(id: 34, composer: "Richard Strauss", composerLa
 let straussDonQuixote = Composition(id: 35, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Quixote", date: "1897", era: "Late Romantic", genre: "Tone Poem", excerpts: [
     Excerpt(id: 66, description: "Excerpt 1", measures: "Var. IX, 8 mm. before [65] - 7 mm. after [65]", pictures: [["Bassoon 1", "1136"], ["Bassoon 2", "1137"]])
 ], videos: [
-    //TODO: Find YouTube Videos for this.
-    ["", ""]
+    ["Bernard Haitink, Symphonieorchester des Bayerischen Rundfunks", "_u5Zq769TJ4"],
+    ["Dennis Russell Davies, Orquesta Sinfónica de Galicia", "Bo7KAGhrrIs"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "_6P1WHXKAlk"],
+    ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunks", "-7EwD2Vz8fw"],
+    ["George Pehlivanian, Orchestra dell'Accademia Nazionale di Santa Cecilia (With Score)", "5PvCGu2Ue0U"],
+    ["Seiji Ozawa, Boston Symphony Orchestra", "Un6zfgAJi8I"],
+    ["Wolfgang Sawallisch, NHK Symphony", "dJNEuvfeshg"]
 ])
 
 let straussHeldenleben = Composition(id: 36, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -476,15 +563,28 @@ let stravinskyRite = Composition(id: 39, composer: "Igor Stravinsky", composerLa
     Excerpt(id: 71, description: "Excerpt 1", measures: "Part I, mm. 1 - 15", pictures: [["Bassoon 1", "1143"], ["Bassoon 2", "1144"], ["Bassoon 3", "1145"]]),
     Excerpt(id: 72, description: "Excerpt 2", measures: "Part I, [12] - 4 mm. after [12]", pictures: [["Bassoon 1", "1146"]])
 ], videos: [
-    //TODO: Find YouTube videos for this.
-    ["", ""]
+    ["Claudio Abbado, London Symphony Orchestra", "RRyd5zR_3Bc"],
+    ["Gianluigi Gelmetti, Radio-Sinfonieorchester Stuttgart des SWR", "U89DW5idH-g"],
+    ["Jaap van Zweden, Radio Filharmonisch Orkest", "5UJOaGIhG7A"],
+    ["Leonard Bernstein, London Philharmonic Orchestra", "a9M2oTHa3GM"],
+    ["Leonard B​e​r​n​ste​i​n, New York Philharmonic Orchestra (With Score)", "rP42C-4zL3w"],
+    ["Lorin Maazel, The Cleveland Orchestra (With Score)", "0XyTWt82XQM"],
+    ["Pierre Boulez, BBC Symphony Orchestra", "yGZh4vww97w"],
+    ["Sir Simon Rattle, London Symphony Orchestra", "EkwqPJZe8ms"],
+    ["Valery Gergiev, Mariinsky Theatre Orchestra", "YOZmlYgYzG4"],
+    ["Zubin Mehta, Berliner Philharmoniker", "BhsRshwB5q4"]
 ])
 
 let stravinskySoldiers = Composition(id: 40, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "L'histoire du soldat", date: "1918", era: "Modern", genre: "Theatrical Work", excerpts: [
     Excerpt(id: 73, description: "Excerpt 1", measures: "No. III (Ragtime), [26] - 3 mm. after [27]", pictures: [["Bassoon", "1149"]])
 ], videos: [
-    //TODO: Find YouTube videos for this.
-    ["", ""]
+    ["Butler Dance, Music and Theatre", "qh7sBAUd3hI"],
+    ["Leo Geyer, Constella Ballet & Orchestra", "RewFQpEY55w"],
+    ["Leo Geyer, Constella Ballet & Orchestra (With Score)", "JgSGTO36zUs"],
+    ["Maxim Rysanov", "LMSOMBINNPM"],
+    ["Parlance Chamber Concerts", "zRl5bGIsYgI"],
+    ["Patrick Yim, Contemporary Chamber Players", "d77jzEVcohA"],
+    ["SSG Chris Bargain, The U.S. Army Band \"Pershing's Own\"", "bB018B3uKKo"]
 ])
 
 let stravinskyNightengale = Composition(id: 41, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Le Chant du rossignol", date: "1917", era: "Modern", genre: "Symphonic Poem", excerpts: [
@@ -492,15 +592,25 @@ let stravinskyNightengale = Composition(id: 41, composer: "Igor Stravinsky", com
     Excerpt(id: 75, description: "Excerpt 2", measures: "[35] - [38]", pictures: [["Bassoon 1 and 2", "1151"]]),
     Excerpt(id: 76, description: "Excerpt 3", measures: "[65] - [67]", pictures: [["Bassoon 1 and 2", "1152"]])
 ], videos: [
-    //TODO: Find YouTube videos for this.
-    ["", ""]
+    ["Ernest Ansermet, L'Orchestre de la Suisse Romande", "3bO0bQPfBTQ"],
+    ["Gerard Schwarz, Seattle Symphony Orchestra (With Score)", "NDvttESHowE"],
+    ["Juraj Valčuha, Frankfurt Radio Symphony", "zTYqJGvEBsg"],
+    ["Lorin Maazel, Berlin Philharmonic", "7GDX8dsSlxs"],
+    ["Lorin Maazel, Radio-Symphonie-Orchester Berlin", "SqOqsxppJ5M"],
+    ["Pierre Boulez, Vienna Philharmonic", "mMK5kue-NGg"]
 ])
 
 let tchaikRomeo = Composition(id: 42, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Romeo and Juliet", date: "1880", era: "Romantic", genre: "Overture, Fantasia", excerpts: [
     Excerpt(id: 77, description: "Excerpt 1", measures: "mm. 164 - 175", pictures: [["Bassoon 1", "1153"], ["Bassoon 2", "1154"]])
 ], videos: [
-    //TODO: Find YouTube videos for this.
-    ["", ""]
+    ["Claudio Abbado, Berliner Philharmoniker", "znKS1QuCUI0"],
+    ["Dmitri Slobodeniouk, Netherlands Radio Philharmonic Orchestra", "f6qZUCi7ToQ"],
+    ["Gustavo Dudamel, Berliner Philharmoniker", "2l8llogGKto"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "tnyC2uwJ4qg"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "2jTHmretpw4"],
+    ["Valery Gergiev, London Symphony Orchestra", "Cxj8vSS2ELU"],
+    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "cn3U8AVoWdY"],
+    ["Yannick Nézet-Séguin, Rotterdam Philharmonic Orchestra", "_Y_tLuudGGk"]
 ])
 
 let tchaik4 = Composition(id: 43, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
