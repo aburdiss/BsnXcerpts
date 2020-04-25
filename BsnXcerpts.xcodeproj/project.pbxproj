@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1DBECA2454A4D5003E67C2 /* RandomCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DBEC92454A4D5003E67C2 /* RandomCompositionView.swift */; };
 		9C6EE59C2443F29500642728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE59B2443F29500642728 /* AppDelegate.swift */; };
 		9C6EE59E2443F29500642728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE59D2443F29500642728 /* SceneDelegate.swift */; };
 		9C6EE5A02443F29500642728 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6EE59F2443F29500642728 /* ContentView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C1DBEC92454A4D5003E67C2 /* RandomCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCompositionView.swift; sourceTree = "<group>"; };
 		9C6EE5982443F29500642728 /* BsnXcerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BsnXcerpts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6EE59B2443F29500642728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C6EE59D2443F29500642728 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				9C6EE5CE2443F35000642728 /* CompositionListView.swift */,
 				9C6EE5D02443F35E00642728 /* CompositionDetailView.swift */,
+				9C1DBEC92454A4D5003E67C2 /* RandomCompositionView.swift */,
 			);
 			path = CompositionViews;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1DBECA2454A4D5003E67C2 /* RandomCompositionView.swift in Sources */,
 				9C6EE59C2443F29500642728 /* AppDelegate.swift in Sources */,
 				9C6EE59E2443F29500642728 /* SceneDelegate.swift in Sources */,
 				9C6EE5A02443F29500642728 /* ContentView.swift in Sources */,
@@ -484,6 +488,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexanderBurdiss.BsnXcerpts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -505,6 +510,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexanderBurdiss.BsnXcerpts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

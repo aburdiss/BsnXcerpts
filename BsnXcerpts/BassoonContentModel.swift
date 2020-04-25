@@ -93,7 +93,9 @@ let beethoven5 = Composition(id: 2, composer: "Ludwig van Beethoven", composerLa
     ["Gustavo Dudamel", "msolhqi-PC0"],
     ["Herbert von Karajan, Berlin Philharmonic (With Score)", "yKl4T5BnhOA"],
     ["Herbert von Karajan, Philharmonia Orchestra", "OV6Lp7cnX7s"],
-    ["Leonard Bernstein, Wiener Philharmoniker", "kHYBoG7hiZk"]
+    ["Leonard Bernstein, Wiener Philharmoniker", "kHYBoG7hiZk"],
+    // Masterclasses
+    ["Christopher Millard", "vakGOvmebCY"]
 ])
 
 let beethoven6 = Composition(id: 3, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 6", date: "1808", era: "Early Romantic", genre: "Symphony", excerpts: [
@@ -121,7 +123,9 @@ let beethoven9 = Composition(id: 4, composer: "Ludwig van Beethoven", composerLa
     ["Klaus Mäkelä, Oslo Philharmonic", "QkQapdgAa7os"],
     ["Osaka, Japan", "X6s6YKlTpfw"],
     ["Riccardo Muti, Chicago Symphony Orchestra", "rOjHhS5MtvA"],
-    ["Seiji Ozawa, Saito Kinen Orchestra", "VS6TEQ_z2wc"]
+    ["Seiji Ozawa, Saito Kinen Orchestra", "VS6TEQ_z2wc"],
+    // Masterclasses
+    ["David McGill", "DQvitin875c"]
 ])
 
 let beethovenViolin = Composition(id: 5, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Violin Concerto in D Major", date: "1806", era: "Early Romantic", genre: "Violin Concerto", excerpts: [
@@ -135,7 +139,11 @@ let beethovenViolin = Composition(id: 5, composer: "Ludwig van Beethoven", compo
     ["Marek Pijarowski, Poznań Philharmonic Orchestra", "gIdqiis3Mts"],
     ["Seiji Ozawa, Berliner Philharmoniker", "ZQVs4MhX3xo"],
     ["Walter Weller, Orquesta Sinfónica de RTVE", "PvrPGO7ja3k"],
-    ["Yehudi Menuhin, Menuhin Festival Orchestra", "0qlcIdFd8X4"]
+    ["Yehudi Menuhin, Menuhin Festival Orchestra", "0qlcIdFd8X4"],
+    // Masterclasses
+    //["David McGill, I", "-tw9y8m3tDk"],
+    ["David McGill, II", "NE6k1Qvqdv0"],
+    ["David McGill, III", "K97sPfYX5CY"]
 ])
 
 let berliozSymphonieFantastique = Composition(id: 6, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Symphonie fantastique", date: "1830", era: "Romantic", genre: "Symphony", excerpts: [
@@ -147,7 +155,11 @@ let berliozSymphonieFantastique = Composition(id: 6, composer: "Hector Berlioz",
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
     ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
-    ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"]
+    ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"],
+    // Masterclasses
+    ["David McGill, IV", "G4LjIQryjgo"],
+    ["David McGill, V", "tdKgXl2ffgo"],
+    ["Minnesota Orchestra Bassoon Section", "X6vgfBoCRco"]
 ])
 
 let brahms1 = Composition(id: 7, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 1", date: "1876", era: "Romantic", genre: "Symphony", excerpts: [
@@ -177,7 +189,9 @@ let brahms3 = Composition(id: 8, composer: "Johannes Brahms", composerLast: "Bra
     ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "vMPP8DkVhk8"],
     ["Seiji Ozawa, Saito Kinen Orchestra", "EN-ymlBxxTQ"],
     ["Sir Georg Solti, Chicago Symphony Orchestra", "wXiHNzRhoFw"],
-    ["Sir John Barbirolli, Wiener Philharmoniker (With Score)", "Lst1Aex2vcQ"]
+    ["Sir John Barbirolli, Wiener Philharmoniker (With Score)", "Lst1Aex2vcQ"],
+    // Masterclasses
+    ["Christopher Millard", "XJ5yy_fZGHc"]
 ])
 
 let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerLast: "Brahms", name: "Variations on a Theme by Haydn", date: "1873", era: "Romantic", genre: "Variations", excerpts: [
@@ -214,7 +228,9 @@ let donizettiLelisir = Composition(id: 11, composer: "Gaetano Donizetti", compos
     ["Jesús López Cobos, Orchestre de Chambre de Lausanne", "iUwdO1OBdlA"],
     ["Patrick Hansen, McGill Symphony Orchestra", "-PLqR8sYTLE"],
     ["Riccardo Frizza, Orquesta Filarmonica de Gran Canaria", "uBJcBsbHCAo"],
-    ["Speranza Scappucci, Wiener Staatsoper", "zAXoOqIGlTY"]
+    ["Speranza Scappucci, Wiener Staatsoper", "zAXoOqIGlTY"],
+    // Masterclasses
+    ["David McGill", "HvjQw9MHAHc"]
 ])
 
 let dukasSorcerer = Composition(id: 12, composer: "Paul Dukas", composerLast: "Dukas", name: "L'Apprenti sorcier", date: "1897", era: "Romantic", genre: "Symphonic Poem", excerpts: [
@@ -227,7 +243,9 @@ let dukasSorcerer = Composition(id: 12, composer: "Paul Dukas", composerLast: "D
     ["Leopold Stokowski, Philadelphia Orchestra", "Gkj2QeogAsU"],
     ["Lionel Bringuier, Frankfurt Radio Symphony Orchestra", "xazobZ22zro"],
     ["Michail Jurowski, Moscow City Symphony", "U4yH4B9deok"],
-    ["Semyon Bychkov, Orchestre de Paris", "ugAdWqMrdZ0"]
+    ["Semyon Bychkov, Orchestre de Paris", "ugAdWqMrdZ0"],
+    // Masterclasses
+    ["Minnesota Orchestra Bassoon Section", "0L8nLe21fJk"]
 ])
 
 let mahler2 = Composition(id: 13, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
@@ -305,7 +323,9 @@ let mendelssohn3 = Composition(id: 18, composer: "Felix Mendelssohn", composerLa
     ["Nikolaus Harnoncourt, Chamber Orchestra of Europe", "aeoxTvgEK0U"],
     ["Otto Klemperer, Philharmonia Orchestra", "4nP0gqKmWuY"],
     ["Rumon Gamba, Orquesta Sinfónica de Galicia", "FbH95mO_o3A"],
-    ["Sir Georg Solti, Chicago Symphony Orchestra", "vRe3zSKolIY"]
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "vRe3zSKolIY"],
+    // Masterclasses
+    ["Christopher Millard", "pDixJN0jjW8"]
 ])
 
 let mozartCosi = Composition(id: 19, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Così fan tutte", date: "1790", era: "Classical", genre: "Opera", excerpts: [
@@ -331,7 +351,9 @@ let mozart35 = Composition(id: 20, composer: "Wolfgang Amadeus Mozart", composer
     ["Kirill Petrenko, Berliner Philharmoniker", "yw92MJruqsk"],
     ["Seiji Ozawa, Mito Chamber Orchestra", "Vb4w6KCoVXM"],
     ["Sir Antonio Pappano, Orchestra dell'Accademia Santa Cecilia", "KqTaCsfbIGE"],
-    ["Ton Koopman, Amsterdam Baroque Orchestra", "JEVoIZVfeCE"]
+    ["Ton Koopman, Amsterdam Baroque Orchestra", "JEVoIZVfeCE"],
+    // Masterclasses
+    ["Christopher Millard", "lmuXfkW5daA"]
 ])
 
 let mozart41 = Composition(id: 21, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 41", date: "1788", era: "Classical", genre: "Symphony", excerpts: [
@@ -348,7 +370,9 @@ let mozart41 = Composition(id: 21, composer: "Wolfgang Amadeus Mozart", composer
     ["Sir Charles Mackerras, Scottish Chamber Orchestra", "Jp4dol4uSkw"],
     ["Ton Koopman, Amsterdam Baroque Orchestra", "bxwS_bCXfFw"],
     ["Wolfgang Sawallisch, Wiener Symphoniker", "lzwpYFyH-dQ"],
-    ["Zubin Mehta, Wiener Philharmoniker", "-ghek5HUrrg"]
+    ["Zubin Mehta, Wiener Philharmoniker", "-ghek5HUrrg"],
+    // Masterclasses
+    ["Christopher Millard", "3iURWZVdT1Q"]
 ])
 
 let mozartFigaro = Composition(id: 22, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Le nozze di Figaro", date: "1786", era: "Classical", genre: "Opera", excerpts: [
@@ -362,7 +386,9 @@ let mozartFigaro = Composition(id: 22, composer: "Wolfgang Amadeus Mozart", comp
     ["Gérard Korsten, Orchestra e Coro del Teatro alla Scala", "_OYtlGpApc0"],
     ["Karl Böhm, Wiener Philharmoniker", "SVyPWJdZx1U"],
     ["Karl Böhm, Wiener Philharmoniker", "fef03047ZX8"],
-    ["Nikolaus Harnoncourt, Vienna Philharmonic", "y581_89UrIY"]
+    ["Nikolaus Harnoncourt, Vienna Philharmonic", "y581_89UrIY"],
+    // Masterclasses
+    ["David McGill", "y3FrPXrr-h4"]
 ])
 
 let ravelMiroirs = Composition(id: 23, composer: "Maurice Ravel", composerLast: "Ravel", name: "Miroirs", date: "1905", era: "Modern", genre: "Piano Suite", excerpts: [
@@ -372,7 +398,9 @@ let ravelMiroirs = Composition(id: 23, composer: "Maurice Ravel", composerLast: 
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "kGgEroiMBCY"],
     ["Seiji Ozawa, Boston Symphony Orchestra", "paDKkCEWx1g"],
     ["Seiji Ozawa, Boston Symphony Orchestra", "h_706v6fan4"],
-    ["Sergiu Celibidache, Münchner Philharmoniker", "TlP2lKUGs4M"]
+    ["Sergiu Celibidache, Münchner Philharmoniker", "TlP2lKUGs4M"],
+    // Masterclasses
+    ["David McGill", "6rRUJHa7E4I"]
 ])
 
 let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "Ravel", name: "Boléro", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
@@ -381,7 +409,10 @@ let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "
     ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
     ["Riccardo Muti, l'Orchestra della Scala di Milano", "64qB8qBoRF8"],
     ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"],
-    ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"]
+    ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"],
+    // Masterclasses
+    ["David McGill", "5XB-MH2QoAI"],
+    ["Simon van Holen", "TuyWybKHQkU"]
 ])
 
 let ravelMaMere = Composition(id: 25, composer: "Maurice Ravel", composerLast: "Ravel", name: "Ma mére l'Oye", date: "1910", era: "Modern", genre: "Suite", excerpts: [
@@ -404,7 +435,9 @@ let ravelRapsodie = Composition(id: 26, composer: "Maurice Ravel", composerLast:
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "bbIAPqQcWkQ"],
     ["Seiji Ozawa, Boston Symphony Orchestra", "-2cGymGpFpE"],
     ["Seiji Ozawa, Boston Symphony Orchestra (With Score)", "2rEc_vksrnc"],
-    ["Sergiu Celibidache, Münchner Philharmoniker", "er0sduxzBFg"]
+    ["Sergiu Celibidache, Münchner Philharmoniker", "er0sduxzBFg"],
+    // Masterclasses
+    ["David McGill", "7OfUGXXU-sM"]
 ])
 
 let rimskyKorsakovScheherazade = Composition(id: 27, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Symphonic Suite", excerpts: [
@@ -417,7 +450,10 @@ let rimskyKorsakovScheherazade = Composition(id: 27, composer: "Nikolai Rimsky-K
     ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"],
     ["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"],
     ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"],
-    ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"]
+    ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"],
+    // Masterclasses
+    ["David McGill", "7bGoXq-U2Lc"],
+    ["LPO woodwind players", "nGUu6607Gzc"]
 ])
 
 let rossiniLaGazza = Composition(id: 28, composer: "Gioachino Rossini", composerLast: "Rossini", name: "La gazza ladra", date: "1817", era: "Romantic", genre: "Opera", excerpts: [
@@ -428,7 +464,9 @@ let rossiniLaGazza = Composition(id: 28, composer: "Gioachino Rossini", composer
     ["Gianluigi Gelmetti, Orchestra Sinfonica della RAI di Torino", "0F73mZjtMXU"],
     ["Gustavo Dudamel, Wiener Philharmoniker", "3MIbDR1QRHs"],
     ["Michael Halasz, Zagreb Festival Orchestra", "Qqa_NADTVQw"],
-    ["Sir Thomas Beecham,  the Royal Philharmonic Orchestra", "Kw1bfRa83EQ"]
+    ["Sir Thomas Beecham,  the Royal Philharmonic Orchestra", "Kw1bfRa83EQ"],
+    // Masterclasses
+    ["David McGill", "_td0CHqwzs4"]
 ])
 
 let sibelius2 = Composition(id: 29, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Modern", genre: "Symphony", excerpts: [
@@ -442,7 +480,9 @@ let sibelius2 = Composition(id: 29, composer: "Jean Sibelius", composerLast: "Si
     ["Paavo Järvi, Orchestre Paris", "K97J2Vlk-a8"],
     ["Petri Sakari, Iceland Symphony Orchestra (With Score)", "YXGxOa682Uc"],
     ["Susanna Mälkki, Frankfurt Radio Symphony", "iXU8EXL7a_4"],
-    ["Yan Pascal Tortelier, Iceland Symphony Orchestra", "Z6iNaFWV3tc"]
+    ["Yan Pascal Tortelier, Iceland Symphony Orchestra", "Z6iNaFWV3tc"],
+    // Masterclasses
+    ["Christopher Millard", "ehGhd_UwtwE"]
 ])
 
 let sibeliusViolin = Composition(id: 30, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Violin Concerto", date: "1904", era: "Modern", genre: "Violin Concerto", excerpts: [
@@ -470,7 +510,6 @@ let smetanaBarteredBride = Composition(id: 31, composer: "Bedřich Smetana", com
 let rStraussAlsoSprach = Composition(id: 32, composer: "Richard Strauss", composerLast: "Strauss", name: "Also sprach Zarathustra", date: "1896", era: "Late Romantic", genre: "Tone Poem", excerpts: [
     Excerpt(id: 62, description: "Excerpt 1", measures: "[55] to [56]", pictures: [["Bassoon 1", "1126"]])
 ], videos: [
-    ["Andris Nelsons, Berliner Philharmoniker", "xJoYv6A-UOU"],
     ["Georg Solti, Chicago Symphony Orchestra", "IFPwm0e_K98"],
     ["Giuseppe Sinopoli, Staatskapelle Dresden", "LpNRBublNr0"],
     ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
@@ -478,7 +517,9 @@ let rStraussAlsoSprach = Composition(id: 32, composer: "Richard Strauss", compos
     ["Herbert von Karajan, Vienna Philharmonic", "h3eEHZCahVU"],
     ["Jonathan Nott, Gustav Mahler Youth Orchestra", "6RdZ7rO_cr0"],
     ["Mariss Jansons, Royal Concertgebouw Orchestra", "D4d88IgvhK4"],
-    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"]
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"],
+    // Masterclasses
+    ["Christopher Millard", "42mJmxSFyo4"]
 ])
 
 let straussDeathAndTransfiguration = Composition(id: 33, composer: "Richard Strauss", composerLast: "Strauss", name: "Death and Transfiguration", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -516,7 +557,9 @@ let straussDonQuixote = Composition(id: 35, composer: "Richard Strauss", compose
     ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunks", "-7EwD2Vz8fw"],
     ["George Pehlivanian, Orchestra dell'Accademia Nazionale di Santa Cecilia (With Score)", "5PvCGu2Ue0U"],
     ["Seiji Ozawa, Boston Symphony Orchestra", "Un6zfgAJi8I"],
-    ["Wolfgang Sawallisch, NHK Symphony", "dJNEuvfeshg"]
+    ["Wolfgang Sawallisch, NHK Symphony", "dJNEuvfeshg"],
+    // Masterclasses
+    ["Christopher Millard", "IFfHwILVmcI"]
 ])
 
 let straussHeldenleben = Composition(id: 36, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -527,7 +570,9 @@ let straussHeldenleben = Composition(id: 36, composer: "Richard Strauss", compos
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "nu5AXJGmkJk"],
     ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
     ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
-    ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"]
+    ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"],
+    // Masterclasses
+    ["David McGill", "h2krD8-0mjs"]
 ])
 
 let straussEulenspiegel = Composition(id: 37, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegel's Merry Pranks", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -540,7 +585,9 @@ let straussEulenspiegel = Composition(id: 37, composer: "Richard Strauss", compo
     ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunk (With Score)", "QV5r9KG1eyc"],
     ["Richard Strauss, Vienna Philharmonic", "IouFZBgEG3s"],
     ["Masahiko Tanaka, Waseda Symphony Orchestra", "S7O9Oa22nsQ"],
-    ["Zubin Mehta, New York Philharmonic", "ZU556MvQN6c"]
+    ["Zubin Mehta, New York Philharmonic", "ZU556MvQN6c"],
+    // Masterclasses
+    ["David McGill", "eQKRVgYbVEQ"]
 ])
 
 let stravinskyFirebird = Composition(id: 38, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Firebird", date: "1910", era: "Modern", genre: "Ballet", excerpts: [
@@ -553,10 +600,10 @@ let stravinskyFirebird = Composition(id: 38, composer: "Igor Stravinsky", compos
     ["Ion Marin, London Symphony Orchestra", "i_T5O2u4sGA"],
     ["Poul Jorgensen, Royal Danish Orchestra", "Yo9L9H--t3k"],
     ["Peter Oundjian, Toronto Symphony Orchestra", "pHxstiIybz4"],
-    ["Pierre Boulez, Chicago Symphony Orchestra (With Score)", "MHmk7yccvws"],
-    ["Pierre Boulez, Chicago Symphony Orchestra", "QlCzpkpQ3qs"],
     ["Valery Gergiev, Kirov theatre Orchestra", "SIIdf07cDFc"],
-    ["Valery Gergiev, Vienna Philharmonic", "RZkIAVGlfWk"]
+    ["Valery Gergiev, Vienna Philharmonic", "RZkIAVGlfWk"],
+    // Masterclasses
+    ["David McGill", "IgOhwJ-oNN4"]
 ])
 
 let stravinskyRite = Composition(id: 39, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Rite of Spring", date: "1913", era: "Modern", genre: "Ballet", excerpts: [
@@ -572,7 +619,9 @@ let stravinskyRite = Composition(id: 39, composer: "Igor Stravinsky", composerLa
     ["Pierre Boulez, BBC Symphony Orchestra", "yGZh4vww97w"],
     ["Sir Simon Rattle, London Symphony Orchestra", "EkwqPJZe8ms"],
     ["Valery Gergiev, Mariinsky Theatre Orchestra", "YOZmlYgYzG4"],
-    ["Zubin Mehta, Berliner Philharmoniker", "BhsRshwB5q4"]
+    ["Zubin Mehta, Berliner Philharmoniker", "BhsRshwB5q4"],
+    // Masterclasses
+    ["David McGill", "KKZeq1EzxHg"]
 ])
 
 let stravinskySoldiers = Composition(id: 40, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "L'histoire du soldat", date: "1918", era: "Modern", genre: "Theatrical Work", excerpts: [
@@ -623,7 +672,11 @@ let tchaik4 = Composition(id: 43, composer: "Pyotr Ilyich Tchaikovsky", composer
     ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
     ["Gennady Rozhdestvensky, USSR State TV and Radio Symphony Orchestra (With Score)", "_Xldfaf4NGw"],
     ["Herbert Von Karajan, Vienna Philharmonic Orchestra", "cnXd4ZqN_c8"],
-    ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"]
+    ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"],
+    // Masterclasses
+    ["David McGill, I", "eSwIZb-H34I"],
+    ["David McGill, II", "H10BZdjXFH4"],
+    ["Stefan Schweigert", "iczSNXRUaJs"]
 ])
 
 let tchaik5 = Composition(id: 44, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
@@ -638,7 +691,11 @@ let tchaik5 = Composition(id: 44, composer: "Pyotr Ilyich Tchaikovsky", composer
     ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "4_PSjr47AUo"],
     ["Manfred Honeck, Frankfurt Radio Symphony", "a_B02BZp-5Y"],
     ["Valery Gergiev, Mariinsky Orchestra", "nmMLFvjkcEs"],
-    ["Vasily Petrenko, The Oslo Philharmonic", "JUk0WZVCnk4"]
+    ["Vasily Petrenko, The Oslo Philharmonic", "JUk0WZVCnk4"],
+    // Masterclasses
+    ["David McGill, I", "YCPnhvrTd6E"],
+    ["David McGill, II", "UnKVJdHto1g"],
+    ["David McGill, III", "bnUrxxYdX9g"]
 ])
 
 let tchaik6 = Composition(id: 45, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 6", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
@@ -652,7 +709,9 @@ let tchaik6 = Composition(id: 45, composer: "Pyotr Ilyich Tchaikovsky", composer
     ["Herbert von Karajan, Wiener Philharmonic", "KvGC8hZC29U"],
     ["Herbert von Karajan, Wiener Philharmonic", "-qgo1KFj0do"],
     ["Lionel Bringuier, Frankfurt Radio Symphony Orchestra", "SVnF3x44rvU"],
-    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "8VswsTffasc"]
+    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "8VswsTffasc"],
+    // Masterclasses
+    ["David McGill", "zlYr3uHnzvA"]
 ])
 
 let wagnerTannhauser = Composition(id: 46, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Romantic", genre: "Opera", excerpts: [

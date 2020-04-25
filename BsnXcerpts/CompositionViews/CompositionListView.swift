@@ -26,14 +26,13 @@ struct CompositionListView: View {
                     }
                 }
             }
-        .navigationBarTitle("BsnXcerpts")
-//        .navigationBarItems(trailing:
-//            NavigationLink(destination: FavoriteExcerpts()) {
-//                HStack {
-//                    Image(systemName: "star")
-//                    Text("Favorites")
-//                }
-//            })
+            .navigationBarTitle("BsnXcerpts")
+            .navigationBarItems(trailing: NavigationLink(destination: RandomCompositionView()) {
+                HStack {
+                    Image(systemName: "cube")
+                    Text("Random")
+                }
+            })
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
