@@ -725,62 +725,6 @@ let wagnerTannhauser = Composition(id: 46, composer: "Richard Wagner", composerL
 ])
 
 
-let pictures = [["Bassoon 1", ""], ["Bassoon 2", ""]]
-let pictures2 = [["Bassoon 1", ""], ["Bassoon 2", ""], ["Contrabassoon", ""]]
-/*
- Bartok Dance Suite <- Cannot find sheet music, not that important either.
-X Beethoven Leonore
-X Beethoven Symphony No. 4
-X Beethoven Symphony No. 5
-X Beethoven Symphony No. 6
-X Beethoven Symphony No. 9
-X Beethoven Violin Concerto in D
-X Berlioz Symphony Fantastique
-X Brahms Symphony No. 1
-X Brahms Symphony No. 3
-X Brahms Variations on a Theme by Haydn
-X Brahms Violin Concerto
-X Donizetti L'elisir d'amore
-X Dukas The Sorcerer's Apprentice
-X Mahler Symphony No. 2
-X Mahler Symphony No. 4
-X Mahler Symphony No. 5
-X Mahler Symphony No. 9
-X Mendelssohn A Midsummer Night's Dream
-X Mendelssohn Symphony No. 3
-X Mozart Cosi fan tutte
-X Mozart Symphony No. 35
-X Mozart Symphony No. 41
-X Mozart The Marriage of Figaro
-X Ravel Alborada del gracioso
-X Ravel Bolero
-X Ravel Ma mere l'Oye
-X Ravel Rapsodie espagnole
-X Rimsky-Korsakov Scheherazade
-X Rossini La Gazza Ladra
-X Sibelius Symphony No. 2
-X Sibelius Violin Concerto
-X Smetana The Bartered Bride
-X Strauss Also sprach Zarathustra
-X Strauss Death and Transfiguration
-X Strauss Don Juan
-X Strauss Don Quixote
-X Strauss Ein Heldenleben
-X Strauss Till Eulenspiegels lustige Streiche
- Stravinsky Octet for Wind Instruments <- Cannot Find
- Stravinsky Pulcinella <- Cannot Find
-X Stravinsky The Firebird
-X Stravinsky The Rite of Spring
-X Stravinsky The Soldier's Tale
-X Stravinsky The Song of the Nightengale
-X Tchaikovsky Romeo and Juliet
-X Tchaikovsky Symphony No. 4
-X Tchaikovsky Symphony No. 5
-X Tchaikovsky Symphony No. 6
- Wagner Tannhauser
- */
-
-
 // MARK: Composers
 
 let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2000, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.", excerpts: [
