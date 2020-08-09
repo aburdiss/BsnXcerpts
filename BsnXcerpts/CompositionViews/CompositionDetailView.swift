@@ -11,6 +11,8 @@ import WebKit
 import UIKit
 
 struct CompositionDetailView: View {
+    @EnvironmentObject var favorites: Favorites
+    
     var composition: Composition
     
     var body: some View {
@@ -91,6 +93,23 @@ struct CompositionDetailView: View {
             }
         
         }
+            .navigationBarItems(trailing:
+                Button(action: {
+                    if self.favorites.contains(String(self.composition.id)) {
+                        self.favorites.remove(String(self.composition.id))
+                    } else {
+                        self.favorites.add(String(self.composition.id))
+                    }
+                }) {
+                    favorites.contains(String(self.composition.id)) ?
+                        Image(systemName: "heart.fill")
+                            .foregroundColor(.pink)
+                        :
+                        Image(systemName: "heart")
+                            .foregroundColor(.red)
+                }
+                .padding()
+            )
         .navigationBarTitle(
             Text(composition.name),
             displayMode: .inline
@@ -103,5 +122,6 @@ struct CompositionDetailView_Previews: PreviewProvider {
         CompositionDetailView(
             composition: beethovenleonore
         )
+        .environmentObject(Favorites())
     }
 }

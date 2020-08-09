@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ComposerDetailView: View {
+    @EnvironmentObject var favorites: Favorites
+    
     var composer: Composer
     
     var body: some View {
@@ -53,10 +55,13 @@ struct ComposerDetailView: View {
                         NavigationLink(destination: CompositionDetailView(composition: item)) {
                             HStack {
                                 Text(item.name)
-                                Rectangle()
-                                    .opacity(0.0000000000000001)
-                                    .frame(minWidth: 0, maxHeight: 15)
-                                    .scaledToFill()
+                                Spacer()
+                                if self.favorites.contains(String(item.id)) {
+                                    Spacer()
+                                    Image(systemName: "heart.fill")
+                                        .accessibility(label: Text("This is a favorite exercise"))
+                                        .foregroundColor(.red)
+                                }
                                 Image(systemName: "chevron.right")
                                     .foregroundColor(.gray)
                             }

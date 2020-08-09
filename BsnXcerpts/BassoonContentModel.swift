@@ -392,7 +392,8 @@ let mozartFigaro = Composition(id: 22, composer: "Wolfgang Amadeus Mozart", comp
 ])
 
 let ravelMiroirs = Composition(id: 23, composer: "Maurice Ravel", composerLast: "Ravel", name: "Miroirs", date: "1905", era: "Modern", genre: "Piano Suite", excerpts: [
-    Excerpt(id: 52, description: "Excerpt 1", measures: "No. 4 (Alborada del Gracioso), [9] - [12]", pictures: [["Bassoon 1 and 2", "1111"]])
+    // Ravel Works images temporarily removed due to copyright restrictions
+    Excerpt(id: 52, description: "Excerpt 1", measures: "No. 4 (Alborada del Gracioso), [9] - [12]", pictures: [["Bassoon 1 and 2", /*1111*/"none"]])
 ], videos: [
     ["Herbert von Karajan, Orchestre de Paris", "HQ0NgNK-Hl0"],
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "kGgEroiMBCY"],
@@ -404,7 +405,8 @@ let ravelMiroirs = Composition(id: 23, composer: "Maurice Ravel", composerLast: 
 ])
 
 let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "Ravel", name: "Boléro", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
-    Excerpt(id: 53, description: "Excerpt 1", measures: "[2] - [3]", pictures: [["Bassoon 1 and 2", "1112"]])
+    // Ravel Works images temporarily removed due to copyright restrictions
+    Excerpt(id: 53, description: "Excerpt 1", measures: "[2] - [3]", pictures: [["Bassoon 1 and 2", /*1112*/"none"]])
 ], videos: [
     ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
     ["Riccardo Muti, l'Orchestra della Scala di Milano", "64qB8qBoRF8"],
@@ -416,7 +418,8 @@ let ravelBolero = Composition(id: 24, composer: "Maurice Ravel", composerLast: "
 ])
 
 let ravelMaMere = Composition(id: 25, composer: "Maurice Ravel", composerLast: "Ravel", name: "Ma mére l'Oye", date: "1910", era: "Modern", genre: "Suite", excerpts: [
-    Excerpt(id: 54, description: "Excerpt 1", measures: "No. IV, [2] - 9 mm. after [5]", pictures: [["Bassoon 1 and 2", "1113"], ["Contrabassoon", "1114"]])
+    // Ravel Works images temporarily removed due to copyright restrictions
+    Excerpt(id: 54, description: "Excerpt 1", measures: "No. IV, [2] - 9 mm. after [5]", pictures: [[/*"Bassoon 1 and 2"*/"Bassoons", /*1113*/"none"] /*, ["Contrabassoon", "1114"] */])
 ], videos: [
     ["Charles Dutoit, Orchestre national de France", "IuCTTsCAOUk"],
     ["정명훈 (Chung Myung-Whun), Orchestre Philharmonique de Radio France", "ZFVu8TP77Tw"],
@@ -428,7 +431,8 @@ let ravelMaMere = Composition(id: 25, composer: "Maurice Ravel", composerLast: "
 ])
 
 let ravelRapsodie = Composition(id: 26, composer: "Maurice Ravel", composerLast: "Ravel", name: "Rapsodie espagnole", date: "1907", era: "Modern", genre: "Orchestral Rhapsody", excerpts: [
-    Excerpt(id: 55, description: "Excerpt 1", measures: "Mov. I, [8] - [9]", pictures: [["Bassoon 1 and 2", "1115"]])
+    // Ravel Works images temporarily removed due to copyright restrictions
+    Excerpt(id: 55, description: "Excerpt 1", measures: "Mov. I, [8] - [9]", pictures: [["Bassoon 1 and 2", /*1115*/"none"]])
 ], videos: [
     ["Charles Dutoit, Orchestre Symphonique de Montréal", "IDpxOmX3FD8"],
     ["DePaul Symphony Orchestra", "SqDD4vjZJfw"],
@@ -816,4 +820,80 @@ class BassoonContentModel: ObservableObject {
     var composers: [Composer] = [
         beethoven, berlioz, brahms, donizetti, dukas, mahler, mendellsohn, mozart, ravel, rimskyKorsakov, rossini, sibelius, smetana, rStrauss, stravinsky, tchaikovsky, wagner
     ]
+}
+
+/**
+ A Model for storing favorite compositions IDs as strings in an encapsulated list. Data is stored internally on every change.
+ */
+class Favorites: ObservableObject {
+    // the actual resorts the user has favorited
+    private var compositionIDs: [String]
+
+    // the key we're using to read/write in UserDefaults
+    private let saveKey = "Favorites"
+
+    init() {
+        // load our saved data
+        self.compositionIDs = UserDefaults.standard.stringArray(forKey: saveKey) ?? [String]()
+    }
+
+    // returns true if our set contains this resort
+    func contains(_ image: String) -> Bool {
+        compositionIDs.contains(image)
+    }
+
+    // adds the resort to our set, updates all views, and saves the change
+    func add(_ image: String) {
+        objectWillChange.send()
+        compositionIDs.append(image)
+        save()
+    }
+
+    // removes the resort from our set, updates all views, and saves the change
+    func remove(_ image: String) {
+        objectWillChange.send()
+        var counter = 0
+        var removeIndex = 0
+        while counter < compositionIDs.count {
+            if compositionIDs[counter] == image {
+                removeIndex = counter
+            }
+            counter += 1
+        }
+        compositionIDs.remove(at: removeIndex)
+        save()
+    }
+    
+    func removeAll() {
+        objectWillChange.send()
+        compositionIDs.removeAll()
+        save()
+    }
+
+    func save() {
+        // write out our data
+        UserDefaults.standard.set(self.compositionIDs, forKey: saveKey)
+    }
+}
+
+/**
+ A model for saving user settings. Data is readable and writeable directly to memory from accessing and setting published variables.
+ */
+class settingsModel: ObservableObject {
+    /**
+     A static list to display names of random options in the Picker.
+     */
+    var randomOptions = ["All", "Favorites"]
+    
+    /**
+     Selected Randoms is the user's choice for selecting whether only favorite excerpts or all excerpts will show in the RandomCompositionView. If the user has not chosen, it will default to 0 (All excerpts).
+     <p>
+     Note: Data will be saved and read directly from memory on read and write of this variable.
+     */
+    @Published var selectedRandoms: Int = UserDefaults.standard.integer(forKey: "Randoms") {
+        didSet {
+            objectWillChange.send()
+            UserDefaults.standard.set(self.selectedRandoms, forKey: "Randoms")
+        }
+    }
 }

@@ -19,21 +19,7 @@ struct ComposerListView: View {
                     NavigationLink(destination: ComposerDetailView(composer: item)) {
                         Text(item.name)
                     }
-//                    Button(action: {
-//                        self.showComposer()
-//                    }) {
-//                        HStack {
-//                            Text(item.name)
-//                            Spacer()
-//                            Image(systemName: "chevron.right")
-//                        }
-//                        .sheet(isPresented: self.$composerIsPresented) {
-//                        ComposerDetailView(composer: item, isPresented: self.$composerIsPresented)
-//                        }
-//                    }
-                    
                 }
-                
             }
         .navigationBarTitle("Composers")
         }

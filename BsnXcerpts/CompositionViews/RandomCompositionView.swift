@@ -9,7 +9,11 @@
 import SwiftUI
 
 struct RandomCompositionView: View {
+    @EnvironmentObject var settings: settingsModel
+    @EnvironmentObject var favorites: Favorites
+    
     let allCompositions = BassoonContentModel().excerpts
+    @State var favoriteCompositions: [Composition] = []
     
     @State var randomComposition: Composition = beethovenleonore
     @State var randomExcerpt: Int = 0
@@ -86,6 +90,7 @@ struct RandomCompositionView: View {
            
         }
         .onAppear() {
+            self.populateFavorites()
             self.generateExcerpt()
         }
         .navigationBarTitle("Random Excerpt", displayMode: .inline)
@@ -96,9 +101,30 @@ struct RandomCompositionView: View {
         })
     }
     
-    func generateExcerpt() {
-        randomComposition = allCompositions.randomElement()!
+    func populateFavorites() {
+        var favoritesArray: [Composition] = []
         
+        for composition in allCompositions {
+            if (favorites.contains(String(composition.id))) {
+                favoritesArray.append(composition)
+            }
+        }
+        self.favoriteCompositions = favoritesArray
+    }
+    
+    func generateExcerpt() {
+        var tempRandomComposition: Composition
+        if settings.selectedRandoms == 1 && favoriteCompositions.count > 0 {
+            repeat {
+                tempRandomComposition = favoriteCompositions.randomElement()!
+            } while (tempRandomComposition.id == randomComposition.id && favoriteCompositions.count > 1)
+        } else {
+            repeat {
+                tempRandomComposition = allCompositions.randomElement()!
+            } while (tempRandomComposition.id == randomComposition.id )
+        }
+        randomComposition = tempRandomComposition
+            
         randomExcerpt = Int.random(in: 0 ..< randomComposition.excerpts.count)
         
         randomPart = Int.random(in: 0 ..< randomComposition.excerpts[randomExcerpt].pictures.count)

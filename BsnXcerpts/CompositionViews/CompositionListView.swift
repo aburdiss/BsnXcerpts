@@ -10,6 +10,8 @@ import SwiftUI
 
 struct CompositionListView: View {
     
+    @EnvironmentObject var favorites: Favorites
+    
     var model = BassoonContentModel().excerpts
     
     var body: some View {
@@ -22,6 +24,12 @@ struct CompositionListView: View {
                                 .bold()
                             Text(item.name)
                             Spacer()
+                            if self.favorites.contains(String(item.id)) {
+                                Spacer()
+                                Image(systemName: "heart.fill")
+                                    .accessibility(label: Text("This is a favorite exercise"))
+                                    .foregroundColor(.red)
+                            }
                         }
                     }
                 }
@@ -41,5 +49,6 @@ struct CompositionListView: View {
 struct CompositionListView_Previews: PreviewProvider {
     static var previews: some View {
         CompositionListView()
+            .environmentObject(Favorites())
     }
 }
