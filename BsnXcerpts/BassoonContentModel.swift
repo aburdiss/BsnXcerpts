@@ -154,8 +154,7 @@ let berliozSymphonieFantastique = Composition(id: 6, composer: "Hector Berlioz",
 ], videos: [
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
     ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
-    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
-    ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"],
+    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc"],
     // Masterclasses
     ["David McGill, IV", "G4LjIQryjgo"],
     ["David McGill, V", "tdKgXl2ffgo"],

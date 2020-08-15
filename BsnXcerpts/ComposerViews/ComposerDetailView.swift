@@ -8,11 +8,23 @@
 
 import SwiftUI
 
+/**
+ Detailed view of an individual composer in the app, also showing a list of all of their compositions.
+ */
 struct ComposerDetailView: View {
+    /**
+     The user selected favorites of the app.
+     */
     @EnvironmentObject var favorites: Favorites
     
+    /**
+     The current composer being displayed.
+     */
     var composer: Composer
     
+    /**
+     The user interface.
+     */
     var body: some View {
         ScrollView(.vertical) {
             VStack {
@@ -28,25 +40,22 @@ struct ComposerDetailView: View {
                             .font(.headline)
                         + Text(composer.country)
                     }
-                        .padding(.bottom)
-                    
+                    .padding(.bottom)
                     Group {
                         Text("Dates: ")
                             .font(.headline)
                         + Text(composer.dates)
                     }
-                        .padding(.bottom)
-
+                    .padding(.bottom)
                     Text("About:")
                         .font(.headline)
                         .padding(.bottom)
                     Text(composer.bio)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                
             }
-                .padding(.horizontal, 40)
-                .padding(.bottom, 20)
+            .padding(.horizontal, 40)
+            .padding(.bottom, 20)
             VStack {
                 ForEach(composer.excerpts) { item in
                     VStack {
@@ -69,9 +78,8 @@ struct ComposerDetailView: View {
                             .padding(.bottom, 3)
                             .padding(.horizontal)
                         }
-                    .buttonStyle(PlainButtonStyle())
+                        .buttonStyle(PlainButtonStyle())
                     }
-                        
                 }
                 Divider()
                     .padding(.leading)
@@ -79,7 +87,8 @@ struct ComposerDetailView: View {
         }
         .navigationBarTitle(
             Text(composer.name),
-            displayMode: .inline)
+            displayMode: .inline
+        )
     }
 }
 
