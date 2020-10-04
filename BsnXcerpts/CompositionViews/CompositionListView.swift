@@ -9,7 +9,7 @@
 import SwiftUI
 
 /**
- A List of all of the compositions in the app. When each excerpt is clicked, another view is opened with the details about that excerpt. Favorites are denoted with stars, and there is a randomize button on the navigation bar.
+ A List of all of the compositions in the app. When each excerpt is clicked, another view is opened with the details about that excerpt. Favorites are denoted with hearts, and there is a randomize button on the navigation bar.
  */
 struct CompositionListView: View {
     /**

@@ -152,9 +152,13 @@ let berliozSymphonieFantastique = Composition(id: 6, composer: "Hector Berlioz",
     Excerpt(id: 16, description: "Excerpt 3", measures: "Mov. V, 7 mm. after [63] - 5 mm. after [64]", pictures: [["Bassoon 1 and 3", "1033"], ["Bassoon 2 and 4", "1034"]]),
     Excerpt(id: 17, description: "Excerpt 4", measures: "Mov. V, 3 mm after [83] - [84]", pictures: [["Bassoon 1 and 3", "1035"], ["Bassoon 2 and 4", "1036"]])
 ], videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "AgXW-57UDMc"],
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
-    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
-    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc"],
+    ["Gustavo Dudamel, Orchestre philharmonique de Radio France", "HDHPgqv4hsw"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "sK4dz6Gbcdk"],
+    ["Leonard Bernstein, Orchestre National de France", "rQXtC6B3CKQ"],
+    ["Leopold Stokowski, New Philharmonia Orchestra (With Score)", "ewoAW-Zyuj8"],
+    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
     // Masterclasses
     ["David McGill, IV", "G4LjIQryjgo"],
     ["David McGill, V", "tdKgXl2ffgo"],

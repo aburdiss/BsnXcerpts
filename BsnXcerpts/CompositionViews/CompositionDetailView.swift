@@ -7,8 +7,6 @@
 //
 
 import SwiftUI
-import WebKit
-import UIKit
 
 /**
  A detailed view of a composition. All excerpts are displayed, as well as links to listen and functionality for adding the excerpt to the favorites.

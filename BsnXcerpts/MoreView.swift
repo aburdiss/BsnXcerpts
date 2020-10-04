@@ -50,11 +50,11 @@ struct MoreView: View {
                             Image(systemName: "heart.slash")
                         }
                     }
-                }
-                .alert(isPresented: $resettingFavoritesAlert) {
-                    Alert(title: Text("All favorites will be removed"), message: Text("This cannot be undone!"), primaryButton: .destructive(Text("Reset")) {
-                        self.resetFavorites()
-                    }, secondaryButton: .cancel())
+                    .alert(isPresented: $resettingFavoritesAlert) {
+                        Alert(title: Text("All favorites will be removed"), message: Text("This cannot be undone!"), primaryButton: .destructive(Text("Reset")) {
+                            self.resetFavorites()
+                        }, secondaryButton: .cancel())
+                    }
                 }
                 Section(header: Text("Resources")) {
                     Button(action: {
@@ -100,7 +100,6 @@ struct MoreView: View {
                 }
                 Section(header: Text("About")) {
                     Text("© 2020 Alexander Burdiss")
-                    Text("Special Thanks to Qian Yu")
                     Button(action: {
                         let url = URL(string: "mailto:aburdiss@gmail.com")!
                         UIApplication.shared.open(url)
