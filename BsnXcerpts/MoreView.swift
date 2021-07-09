@@ -101,7 +101,7 @@ struct MoreView: View {
                 Section(header: Text("About")) {
                     Text("© 2020 Alexander Burdiss")
                     Button(action: {
-                        let url = URL(string: "mailto:aburdiss@gmail.com")!
+                        let url = URL(string: "mailto:aburdiss@icloud.com")!
                         UIApplication.shared.open(url)
                     }) {
                         HStack {

@@ -54,8 +54,6 @@ let beethovenleonore = Composition(id: 0, composer: "Ludwig van Beethoven", comp
     Excerpt(id: 1, description: "Excerpt 2", measures: "8 after [H] to 14 before Presto", pictures: [["Bassoon 1", "1001"], ["Bassoon 2", "1002"]])
 ], videos: [
     ["Anton Nanut, Radio-Symphonieorchester Wien (With Score)", "_0pz7zkKcA0"],
-    ["Franz Welser, Vienna Philharmonic", "oodMxBMM0Dw"],
-    ["Karl Böhm, Wiener Philharmoniker", "RpCNGTRvQVI"],
     ["Kurt Masur, Gewandhaus Orchester Leipzig", "JEcxF227xE0"],
     ["Leonard Bernstein, Bavarian Broadcast Symphony Orchestra","dRhwyzJABvI"],
     ["Nicolás Pasquet, Orchestra of the University of Music FRANZ LISZT Weimar", "OOIlQkANUxQ"],
@@ -74,7 +72,6 @@ let beethoven4 = Composition(id: 1, composer: "Ludwig van Beethoven", composerLa
     ["Arturo Toscanini, NBC Symphony Orchestra", "G-eMpph444Q"],
     ["Bernard Haitink, London Symphony Orchestra (With Score)", "PVArUbva2bk"],
     ["Carlos Kleiber, Concertgebouw Symphony Orchestra", "dCMYxJIji1g"],
-    ["Christian Thielemann, Wiener Philharmoniker", "2rLXFPNx-ss"],
     ["Daniel Barenboim, West-Eastern Divan Orchestra", "KjfWx_FBEuk"],
     ["John Eliot Gardiner, Orchestre Révolutionnaire et Romantique (On Period Instruments)", "HVABRzniCIQ"],
     ["Herbert von Karajan, Berlin Philharmonic (With Score)", "BQm6Xu4vYWo"],
@@ -88,12 +85,10 @@ let beethoven5 = Composition(id: 2, composer: "Ludwig van Beethoven", composerLa
     Excerpt(id: 6, description: "Excerpt 1", measures: "Mov. IV, mm. 374 - 436", pictures: [["Bassoon 1", "1011"], ["Bassoon 2", "1012"], ["Contrabassoon", "1013"]])
 ], videos: [
     ["Bernard Haitink, London Symphony Orchestra", "DAyUzxDB9eE"],
-    ["Christian Thielemann, Vienna Philharmonic Orchestra", "olMPeiqoiic"],
     ["Daniel Barenboim, West-Eastern Divan Orchestra", "jv2WJMVPQi8"],
     ["Gustavo Dudamel", "msolhqi-PC0"],
     ["Herbert von Karajan, Berlin Philharmonic (With Score)", "yKl4T5BnhOA"],
     ["Herbert von Karajan, Philharmonia Orchestra", "OV6Lp7cnX7s"],
-    ["Leonard Bernstein, Wiener Philharmoniker", "kHYBoG7hiZk"],
     // Masterclasses
     ["Christopher Millard", "vakGOvmebCY"]
 ])
@@ -103,7 +98,6 @@ let beethoven6 = Composition(id: 3, composer: "Ludwig van Beethoven", composerLa
     Excerpt(id: 8, description: "Excerpt 2", measures: "Mov. II, mm. 7 - 13", pictures: [["Bassoon 1", "1016"], ["Bassoon 2", "1017"]])
 ], videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "Zv4PIFRpYcw"],
-    ["Christian Thielemann, Wiener Philharmoniker", "23VcuR55_j4"],
     ["Daniel Barenboim, West-Eastern Divan Orchestra", "aW-7CqxhnAQ"],
     ["Herbert von Karajan, Berlin Philharmonic (With Score)", "p4CCU2-AFZE"],
     ["James Loughran, London Philarmonic Orchestra", "fRg0K5rgXog"],
@@ -123,7 +117,6 @@ let beethoven9 = Composition(id: 4, composer: "Ludwig van Beethoven", composerLa
     ["Klaus Mäkelä, Oslo Philharmonic", "QkQapdgAa7os"],
     ["Osaka, Japan", "X6s6YKlTpfw"],
     ["Riccardo Muti, Chicago Symphony Orchestra", "rOjHhS5MtvA"],
-    ["Seiji Ozawa, Saito Kinen Orchestra", "VS6TEQ_z2wc"],
     // Masterclasses
     ["David McGill", "DQvitin875c"]
 ])
@@ -133,11 +126,9 @@ let beethovenViolin = Composition(id: 5, composer: "Ludwig van Beethoven", compo
     Excerpt(id: 13, description: "Excerpt 2", measures: "Mov. III, mm. 133 - 158", pictures: [["Bassoon 1", "1028"]])
 ], videos: [
     ["Bernard Haitink, Royal Concertgebouw Orchestra", "DoVwXtJkycU"],
-    ["Carlo Maria Giulini, Philharmonia Orchestra", "iR8vHbiTADg"],
     ["Joshua Bell, Orpheus Chamber Orchestra", "WqWl8K3svoI"],
     ["Leonard Slatkin, Detroit Symphony Orchestra", "0Cg_0jepxow"],
     ["Marek Pijarowski, Poznań Philharmonic Orchestra", "gIdqiis3Mts"],
-    ["Seiji Ozawa, Berliner Philharmoniker", "ZQVs4MhX3xo"],
     ["Walter Weller, Orquesta Sinfónica de RTVE", "PvrPGO7ja3k"],
     ["Yehudi Menuhin, Menuhin Festival Orchestra", "0qlcIdFd8X4"],
     // Masterclasses
@@ -158,7 +149,6 @@ let berliozSymphonieFantastique = Composition(id: 6, composer: "Hector Berlioz",
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "sK4dz6Gbcdk"],
     ["Leonard Bernstein, Orchestre National de France", "rQXtC6B3CKQ"],
     ["Leopold Stokowski, New Philharmonia Orchestra (With Score)", "ewoAW-Zyuj8"],
-    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
     // Masterclasses
     ["David McGill, IV", "G4LjIQryjgo"],
     ["David McGill, V", "tdKgXl2ffgo"],
@@ -190,7 +180,6 @@ let brahms3 = Composition(id: 8, composer: "Johannes Brahms", composerLast: "Bra
     ["Herbert von Karajan, Berliner Philharmoniker", "QaItCES17AY"],
     ["Leonard Bernstein, Wiener Philharmoniker", "4L0MqnAoEJM"],
     ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "vMPP8DkVhk8"],
-    ["Seiji Ozawa, Saito Kinen Orchestra", "EN-ymlBxxTQ"],
     ["Sir Georg Solti, Chicago Symphony Orchestra", "wXiHNzRhoFw"],
     ["Sir John Barbirolli, Wiener Philharmoniker (With Score)", "Lst1Aex2vcQ"],
     // Masterclasses
@@ -200,11 +189,7 @@ let brahms3 = Composition(id: 8, composer: "Johannes Brahms", composerLast: "Bra
 let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerLast: "Brahms", name: "Variations on a Theme by Haydn", date: "1873", era: "Romantic", genre: "Variations", excerpts: [
     Excerpt(id: 24, description: "Excerpt 1", measures: "Var. VI, mm. 264 - 292", pictures: [["Bassoon 1", "1053"], ["Bassoon 2", "1054"], ["Contrabassoon", "1055"]])
 ], videos: [
-    ["Claudio Abbado, Berlin Philharmonic Orchestra", "BAuqxEMRapg"],
     ["Cristian Măcelaru, WDR Sinfonieorchester", "wcobxmwCTys"],
-    ["Gustavo Dudamel, Berlin Philharmonic Orchestra", "BRu7CMg6wSs"],
-    ["Iván Fischer, Budapesti Fesztiválzenekar", "2h9uLF0LqtM"],
-    ["Nikolaus Harnoncourt, Berlin Philharmonic Orchestra", "02F9-SWkzc4"],
     ["Ricardo Muti, Philadelphia Orchestra (With Score)", "oMJVCdhJZPk"],
     ["Richard Davis, University of Melbourne Symphony Orchestra", "QmQLb5SZb4E"],
     ["Sergiu Celibidache, Munich Philharmonic Orchestra", "vQ-JIXjFykc"]
@@ -213,9 +198,7 @@ let brahmsVariations = Composition(id: 9, composer: "Johannes Brahms", composerL
 let brahmsViolin = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Violin Concerto", date: "1878", era: "Romantic", genre: "Violin Concerto", excerpts: [
     Excerpt(id: 25, description: "Excerpt 1", measures: "Mov. II, mm. 1 - 32", pictures: [["Bassoon 1", "1056"], ["Bassoon 2", "1057"]])
 ], videos: [
-    ["Bernard Haitink , Chamber Orchestra of Europe", "lJ1xKctJpQM"],
     ["Carlo Maria Giulini, Chicago Symphony Orchestra ", "QS6b8JKzUeo"],
-    ["Christian Thielemann, Staatskapelle Dresden", "d6Gw_b5DXrg"],
     ["Eduardo Marturet, Deutsches Symphonie-Orchester Berlin (With Score)", "1L29nRXWoCM"],
     ["Jaap van Zweden, Verbier Festival Orchestra", "gSsk2rruC5c"],
     ["Lawrence Foster, The Philarmonia Orchestra of London", "7C_U7eUbVd8"],
