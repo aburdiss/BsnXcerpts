@@ -99,7 +99,7 @@ struct MoreView: View {
                     }
                 }
                 Section(header: Text("About")) {
-                    Text("© 2020 Alexander Burdiss")
+                    Text("© " + String(Calendar.current.component(.year, from: Date())) + " Alexander Burdiss")
                     Button(action: {
                         let url = URL(string: "mailto:aburdiss@icloud.com")!
                         UIApplication.shared.open(url)
